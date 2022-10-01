@@ -6,7 +6,7 @@
 
 # 🐱‍💻 Simple-to-Advance Web Project (SAWP)
 
-📌 This repository contains many projects based on web development i.e easy-to-advance level projects so that people in this community can easily learn the website development directly in real life project.
+📌 This repository contains many projects based on web development i.e simple-to-advance level projects so that people in this community can easily learn the website development directly in real life project.
 
 📌 100% Open Source. This repository is open to all members of GitHub community.
 
