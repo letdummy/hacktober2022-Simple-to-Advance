@@ -1,0 +1,102 @@
+p{
+text-align:justify;
+}
+h1{ 
+text-align:center;
+display:block;
+	background-color:black;
+	color:white;
+	position:relative;
+	padding:5px;
+	font-size: 32px;
+}
+h2{
+	color:rgba(256,0,0,0.8);
+}
+h3{
+	color:rgba(0,0,256,0.8);
+}
+body{
+	font-family: 'Encode Sans SC', sans-serif;
+	position:relative;
+	margin:20px 15px 10px;
+	padding:8px;
+}
+footer{
+	position:sticky;
+	clear:both;
+	padding:5px;
+	padding-bottom: 0;
+	height:20px;
+	width:870px;
+margin-left:300px;
+margin-right:auto;
+margin-bottom: 0;
+bottom:0;
+left:auto;
+	background-color:black;
+	color:white;
+}
+
+#pp, .pp:hover{
+	color:blue;
+	text-decoration:none;
+	
+}
+#pp:hover,.pp{
+	color:red;
+text-decoration:none;
+}
+
+#pp:active{color:yellowgreen;}
+.wiki {color:grey;
+text-decoration:none;}
+.wiki:active{color:yellowgreen;}
+.wiki:hover{color:aqua;}
+#mani{color:green;}
+
+
+
+.topic:link, .topic:visited{color:white;text-decoration:none;}
+ .topic:hover{color:blue;}
+#icon-credit{
+	position:relative;
+	font-size:1em;
+	text-align:center;
+}
+
+
+.pp:active{color:yellowgreen;}
+
+
+html{
+	scroll-behavior:smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fbf5de;
+    box-shadow: inset 2px 2px 1.5px #f2ca5c;
+	border-radius: 30px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: 	#f2ca5c; 
+  border-radius:30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #554; 
+
+}
+::-webkit-scrollbar-thumb:active {
+  background: #FFF; 
+
+}

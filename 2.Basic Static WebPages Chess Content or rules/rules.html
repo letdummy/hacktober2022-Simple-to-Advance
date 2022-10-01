@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<title>Rules of Chess</title>
+<link rel="icon" href="images/chess.png" type="png"/>
+<link href="stylesheet.css" rel=stylesheet type="text/css"/>
+<style>
+
+#CONTENTS{
+text-align:center;
+text-decoration-line:underline overline;
+color:rgb(23, 52, 240);
+}
+ 
+#movesalign{position:reletive;
+margin-left:180px;margin-right:auto;}
+
+
+#chesspieces
+{border:outset 5px;
+float:right;
+margin-top:0;
+position:relative;
+}
+
+#initialsetup
+{border:outset 5px;
+float:left;
+margin-top:0;
+position:relative;
+text-align:center;
+}
+#enpassimg{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+	
+}
+.rightalign{
+padding:0px;
+margin:0px 5px;
+display:block ;
+border:outset 5px;
+position:relative;
+float:right;
+text-align:center;}
+.rightalign figcaption{width:200px;}
+#CHESSPI{
+margin-left:0px;
+margin-right:0px;
+padding-left:0px;
+}
+.leftalign{
+padding:0px;
+margin:2px 6px;
+display:block ;
+border:outset 5px;
+position:relative;
+float:left;
+text-align:center;}
+.leftalign figcaption{width:200px;}
+#CHESSPI{
+margin-left:0px;
+margin-right:0px;
+padding-left:0px;
+}
+.mainC{
+margin-right:8px;
+border:outset 10px;
+padding:8px;
+display:block;
+float:left;
+background-color:grey;
+color:white;
+}
+#fact{width:250px;
+	margin-left: 5px;
+	padding: 5px;
+float: right;
+border: outset 10px;
+background-color:rgba(250, 231, 84, 0.925);
+text-align: center;}
+</style>
+</head>
+<body>
+<article>
+<h1>Rules of Chess</h1>
+
+<section class="mainC">
+<h2 id="CONTENTS">Table Of Contents</h2>
+<ul type=none>
+<li><a href="#setup" class=topic>	1.Setup</a></li>
+<li><a href="#movement" class=topic>	2.Movement</a></li>
+		<ol type="i">
+<li><a href="#CandC" class=topic>	Check and Checkmate</a></li>
+<li><a href="#castle" class=topic>	Castling</a></li>
+<li><a href="#enpass" class=topic>	En passant</a></li>
+<li><a href="#promotion" class=topic>	Promotion</a></li>
+		</ol>
+<li>	<a href=""class=topic>3.End of the game</a></li>
+		<ol type="i">
+<li>	<a href=""class=topic>Win</a></li>
+<li>	<a href=""class=topic>Draw</a></li>
+		</ol>
+<li>	<a href=""class=topic>4.Time control</a></li>
+</ul>
+</section>
+<p>The rules of chess (also known as the laws of chess) are rules governing the play of the game of chess. While the exact origins of chess are unclear, modern rules first took form during the Middle Ages. The rules continued to be slightly modified until the early 19th century, when they reached essentially their current form. The rules also varied somewhat from place to place. Today, the standard rules are set by FIDE (Fédération Internationale des Échecs), the international governing body for chess. Slight modifications are made by some national organizations for their own purposes. There are variations of the rules for fast chess, correspondence chess, online chess, and Chess960.</p>
+
+<p>Chess is a two-player board game using a chessboard and sixteen pieces of six types for each player. Each type of piece moves in a distinct way. The object of the game is to checkmate (threaten with inescapable capture) the opponent's king. Games do not necessarily end in checkmate; a player who expects to lose may resign. A game can also end in a draw in several ways.</p>
+
+<p>Besides the basic moves of the pieces, rules also govern the equipment used, time control, conduct and ethics of players, accommodations for physically challenged players, and recording of moves using chess notation. Procedures for resolving irregularities that can occur during a game are provided as well.</p></section>
+
+<figure id=chesspieces><img src="images/ChessPieces.jpg" type="jpg" width=500px/><figcaption id=CHESSPI>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PAWN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROOK&nbsp;&nbsp;&nbsp; KNIGHT&nbsp; BISHOP&nbsp; QUEEN&nbsp;&nbsp;&nbsp; KING</figcaption></figure>
+<section id="setup">
+<h2><b>1.SETTING UP PIECES ON BOARD</b></h2>
+<p>Chess pieces are divided into two different colored sets. While the sets may not be literally white and black b(e.g. the light set may be a yellowish or off-white color, the dark set may be brown or red), they are always referred to as "white" and "black". The players of the sets are referred to as White and Black, respectively. Each set consists of 16 pieces: <b>one king, one queen, two rooks, two bishops, two knights, and eight pawns.</b></p>
+
+<p>The game is played on a square board of eight rows (called ranks) and eight columns (called files). By convention, the 64 squares alternate in color and are referred to as light and dark squares; common colors for chessboards are white and brown, or white and dark green.</p>
+<figure id=initialsetup><img src="images/Chess-board.png" type=png width=200px;/><figcaption>INITIAL SET-UP</figure>
+<p>The Chess pieces and pieces set out on board are shown in the diagram and photo. Thus, on White's first rank, from left to right, the pieces are placed in the following order: rook, knight, bishop, queen, king, bishop, knight, rook. On the second rank is placed a row of eight pawns. Black's position mirrors White's, with an equivalent piece on the same file. The board is placed with a light square at the right-hand corner nearest to each player. The correct positions of the king and queen may be remembered by the phrase "queen on her own color" ─ i.e. the white queen begins on a light square; the black queen on a dark square.</p>
+</section>
+
+<section id=movement>
+<h2><b>2.MOVEMENT OF PIECES</b></h2>
+<p>In competitive games, the piece colors are allocated to players by the organizers; in informal games, the colors are usually decided randomly, for example by a coin toss, or by one player concealing a white pawn in one hand and a black pawn in the other, and having the opponent choose. White moves first, after which players alternate turns, moving one piece per turn (except for castling, when two pieces are moved). A piece is moved to either an unoccupied square or one occupied by an opponent's piece, which is captured and removed from play. With the sole exception of en passant, all pieces capture by moving to the square that the opponent's piece occupies. Moving is compulsory; a player may not skip a turn, even when having to move is detrimental.</p>
+
+<p>Each piece has its own way of moving. In the diagrams, the dots mark the squares to which the piece can move if there are no intervening piece(s) of either color (except the knight, which leaps over any intervening pieces). All pieces except the pawn can capture an enemy piece if it is located on a square to which they would be able to move if the square was unoccupied. The squares on which pawns can capture enemy pieces are marked in the diagram with black crosses.</p>
+<figure id=movesalign><img src="images/moves.png" type=png width=900px /></figure>
+<section>
+<ul>
+<section><li>The king moves one square in any direction. There is also a special move called castling that involves moving the king and a rook. The king is the most valuable piece — attacks on the king must be immediately countered, and if this is impossible, immediate loss of the game ensues (see Check and checkmate below).</li></section>
+<section><li>A rook can move any number of squares along a rank or file, but cannot leap over other pieces. Along with the king, a rook is involved during the king's castling move.</li></section>
+<section><li>A bishop can move any number of squares diagonally, but cannot leap over other pieces.</li></section>
+<section><li>A queen combines the power of a rook and bishop and can move any number of squares along a rank, file, or diagonal, but cannot leap over other pieces.</li></section>
+<section><li>A knight moves to any of the closest squares that are not on the same rank, file, or diagonal. (Thus the move forms an "L"-shape: two squares vertically and one square horizontally, or two squares horizontally and one square vertically.) The knight is the only piece that can leap over other pieces.</li></section>
+<section><li>A pawn can move forward to the unoccupied square immediately in front of it on the same file, or on its first move it can advance two squares along the same file, provided both squares are unoccupied (black dots in the diagram). A pawn can capture an opponent's piece on a square diagonally in front of it by moving to that square (black crosses). A pawn has two special moves: the en passant capture and promotion.</li></section>
+</ul>
+</section>
+
+	<section>
+		<h3 id=CandC>2(i).Check and Checkmate</h3>
+		<aside ><figure class="leftalign"><img src="images/check.png" type=png width=200px ><figcaption>The Black's King is in check by the rook.</figcaption></figure>
+		</aside>
+
+<p><br>When a king is under immediate attack, it is said to be in check. A move in response to a check is legal only if it results in a position where the king is no longer in check. This can involve capturing the checking piece; interposing a piece between the checking piece and the king (which is possible only if the attacking piece is a queen, rook, or bishop and there is a square between it and the king); or moving the king to a square where it is not under attack. Castling is not a permissible response to a check.</p>
+<aside><figure class="rightalign"><img src="images/checkmate.png" type=png width=200px><figcaption>White is in checkmate, being unable to escape attack by the black bishop on f3.</figcaption></figure></aside>
+<p>The object of the game is to checkmate the opponent; this occurs when the opponent's king is in check, and there is no legal way to get it out of check. It is never legal for a player to make a move that puts or leaves the player's own king in check. In casual games, it is common to announce "check" when putting the opponent's king in check, but this is not required by the rules of chess and is not usually done in tournaments.</p>
+	</section>
+	
+	<section>
+		<h3 id=castle><br>2(ii).Castling</h3>
+		<p>Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares along the player's first rank toward a rook on the same rank, and then placing the rook on the last square that the king crossed.</p>
+		<aside><figure class=leftalign><img src="images/castle.png" type=png width=200px;><figcaption>Initial position of kings and rooks. Kings may be moved to the indicated squares.</figcaption></figure></aside><p> Castling on the kingside is sometimes called castling short (the rook moves a short distance, i.e. two squares) while castling on the queenside is called castling long (the rook moves a long distance, i.e. three squares)</p>
+	
+		
+			<p>Castling is permissible if the following conditions are met:</p>
+<ul class=list>
+<li>Neither the king nor the rook has previously moved during the game.</li>
+<li>There are no pieces between the king and the rook.</li>
+<li>The king is not in check, and will not pass through or land on any square attacked by an enemy piece.</li></ul>
+<p>Castling is still permitted if the rook is under attack, or if the rook crosses an attacked square.</p>
+</section>
+<section><h3 id=enpass><br>2(iii).En Passant</h3>
+<p>When a pawn makes a two-step advance from its starting position and there is an opponent's pawn on a square next to the destination square on an adjacent file, then the opponent's pawn can capture it en passant ("in passing"), moving to the square the pawn passed over. This can be done only on the turn immediately following the enemy pawn's two-square advance; otherwise, the right to do so is forfeited.</p>
+
+<p>The en passant capture rule was added in the 15th century when the rule that gave pawns an initial double-step move was introduced. It prevents a pawn from using the two-square advance to pass an adjacent enemy pawn without the risk of being captured.</p>
+<p class=pass-condition><b>Conditions For En Passant</b></p>
+<p>A pawn on its fifth rank may capture an enemy pawn on an adjacent file that has moved two squares in a single move, as if the pawn had moved only one square. The conditions are:
+	<ul>
+	<li>the capturing pawn must be on its fifth rank;</li>
+<li>	the captured pawn must be on an adjacent file and must have just moved two squares in a single move (i.e. a double-step move);</li>
+<li>	the capture can only be made on the move immediately after the enemy pawn makes the double-step move; otherwise, the right to capture it en passant is lost.</li></p>	
+</ul>
+<figure ><img src="images/enpass.png" id=enpassimg width=800px alt="example of en passant"/></figure>
+
+</section>
+<section><h3 id=promotion>2(iv).Promotion</h3>
+
+	<aside><figure class=leftalign ><img src="images/promotion.png" width=200px/><figcaption>White's Pawn on a7 can move to a8 for promotion</figcaption></figure></aside><p>Promotion in chess is a rule that requires a pawn that reaches the eighth rank to be replaced by the player's choice of a bishop, knight, rook, or queen of the same color. The piece chosen cannot be another king nor another pawn. The new piece replaces the pawn on its square on the same move. The choice of the new piece is not limited to pieces previously captured, thus promotion can result in a player owning, for example, two or more queens despite starting the game with one.</p>
+		<aside id=fact><p><h3><i> INTRESTING FACT!!</i></h3>If the promoted piece is not physically available, FIDE rules state that the player must stop the game clock and summon the arbiter for the correct piece. Under US Chess Federation rules and in casual play, an upside-down rook may be used to designate a queen .</p></aside>
+	<p>Pawn promotion, or the threat of it, often decides the result in an endgame. Since the queen is the most powerful piece, the vast majority of promotions are to a queen. Promotion to a queen is also called queening; promotion to any other piece is referred to as underpromotion. Underpromotion is usually done by promoting a pawn into a knight if it results in check to restrict the opponent's next move. Promotion to a rook or bishop is typically insignificant because the queen can move the same way as the two pieces combined. Underpromotion to a bishop or rook is typically done if queening results in an immediate stalemate.</p>
+	
+
+</section>
+</section>
+</article>
+	<footer>
+	<aside><div id=icon-credit>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank" title="Pixel perfect" class="pp"><i><b>Pixel <span id=pp>Perfect</span></b></i></a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"class=pp><i><b>www.flaticon.com</b></i></a> || Content Source is <a href="https://www.wikipedia.org" target="_blank" class=wiki><b>Wikipedia</b></a> || Website Designed By <span id=mani><b>Mani Garg</b></span></div>
+	</aside>
+	</footer>
+</body>
+</html>
