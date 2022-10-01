@@ -59,6 +59,8 @@ git push origin branch_name
 #   <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width=29> Table of Contents
 - [Project 01: HTML and CSS Epic Login Form](https://github.com/letdummy/Simple-to-Advance/tree/master/01.%20HTML%20and%20CSS%20Epic%20Login%20Form)
 - [Project 02: Basic Static WebPages Chess Content or rules](https://github.com/letdummy/Simple-to-Advance/tree/master/2.Basic%20Static%20WebPages%20Chess%20Content%20or%20rules)
+- [Project 03: Mars Rover Image](https://github.com/letdummy/Simple-to-Advance/tree/master/03.%20Mars%20Rover%20Image)
+
 
 
  ## 😄 Shoutout to all the contributors ❤️
