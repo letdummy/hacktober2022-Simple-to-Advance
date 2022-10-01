@@ -63,7 +63,8 @@ git push origin branch_name
 
 
 
- ## 😄 Shoutout to all the contributors ❤️
+ ## 😄 Shoutout to all the contributors ❤️ 
+ note: <i>it will take a few days to update your profile here</i>
 
 <a href="https://github.com/letdummy/Simple-to-Advance/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=letdummy/Simple-to-Advance" />
