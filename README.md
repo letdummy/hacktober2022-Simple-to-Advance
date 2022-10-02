@@ -20,13 +20,13 @@
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/simple-advance-web-project.git
+git clone https://github.com/your-username/Simple-to-Advance.git
 ```
 
 3. Add upstream URL 
 
 ```markdown
-git remote set-url origin https://github.com/your-username/simple-advance-web-project.git
+git remote set-url origin https://github.com/your-username/Simple-to-Advance.git
 ```
 
 4. Create a new branch
