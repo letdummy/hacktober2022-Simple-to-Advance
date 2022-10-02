@@ -1,39 +1,14 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Random Meme Generator</title>
-    <style type="text/css">
-        *{
-        margin:0;
-        box-sizing:border-box;
-        }
-        
-        img {
-        display:block;
-        height:300px;
-        width:300px;
-        object-fit:contain;
-        object-position:center;
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="main.js"></script>
 </head>
 
 <body>
-    <img src="" alt="" />
-    <script type="text/javascript">
-        const image = document.querySelector("img");
-        
-        fetch("https://meme-api.herokuapp.com/gimme", {method: "GET"})
-            .then(c => c.json())
-            .then(data => {
-                image.src = data.url
-                image.alt = data.title
-            })
-    </script>
+    <img src="loading.gif" alt="Loading..." />
 </body>
 
 </html>
