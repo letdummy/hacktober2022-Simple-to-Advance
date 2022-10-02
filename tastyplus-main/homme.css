@@ -1,0 +1,364 @@
+/* designinng for mobile screen-home page*/
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero-left-wrapper {
+  max-width: 360px;
+  font-family: sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero-right img {
+  max-width: 350px;
+  max-width: 360px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-heading {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--black-1);
+  margin-top: 8rem;
+}
+.hero-info {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: var(--black-2);
+}
+.button-wrapper {
+  text-align: center;
+}
+.ourSpecials-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 5em auto;
+  width: 80%;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.foodimg {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  height: 160px;
+}
+.ourSpecials-right {
+  width: 260px;
+  padding: 2rem 3rem;
+  background-color: var(--lightGreen-1);
+  border-radius: 12px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.ourSpecials-left {
+  width: 290px;
+  padding: 3rem 5rem;
+  margin-right: 10rem;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+}
+.food-title {
+  font-size: 2rem;
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+  color: var(--black-1);
+}
+.food-desc {
+  font-size: 1.4rem;
+  font-family: Raleway;
+  line-height: 20px;
+  color: var(--black-2);
+}
+
+.threestar img {
+  width: 20px;
+  margin: 0 auto;
+}
+/*disigning discount seection for smaller screen*/
+.discount-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: var(--lightGreen-1)
+    url(./shaif-s-cuisine-starter_files/images/discount-illustration.png)
+    no-repeat bottom right / 100px;
+  padding: 3rem;
+  border-radius: 12px no-repeat bottom right / 100px;
+}
+.discount-images {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+.discount-images img {
+  width: 344px;
+  height: 264px;
+  object-fit: cover;
+  border-radius: 12px;
+  width: 100%;
+}
+.discount-text {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--green-1);
+  margin-bottom: 0.5rem;
+}
+.discount-title {
+  font-size: 1.8rem;
+  color: var(--black-1);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.discount-price {
+  display: flex;
+}
+.discount-oldprice,
+.discount-newprice {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: Poppins;
+  margin: 0.5rem;
+}
+.discount-oldprice {
+  color: var(--black-1);
+  text-decoration: line-through;
+}
+.discount-newprice {
+  color: var(--green-1);
+}
+.discount-stars {
+  width: max-content;
+  height: 15px;
+  margin: 1rem;
+}
+/* designinng resturant promo page for smaller */
+.resturant-wrapper video {
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+}
+.resturant-wrapper {
+  width: 100%;
+  position: relative;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  align-items: center;
+}
+.text {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 20%;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+.promo-header {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+.promo-text {
+  font-size: 0.7rem;
+  font-style: raleway;
+}
+#video1 {
+  object-fit: cover;
+  width: 500px;
+  height: 200px;
+}
+/*designing testimonial for small screen*/
+
+.testimonial-upper {
+  background-color: red;
+  height: 90px;
+  max-width: 464px;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightGreen-1);
+  padding: 40px 0px 32px 15px;
+  font-family: raleway;
+  flex: 3;
+}
+.testi-header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.sarun {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.testimonial-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--lightGreen-1);
+  border-radius: 24px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 20px;
+  max-width: 464px;
+}
+.lower-text {
+  font-size: 24px;
+  font-family: popins;
+  font-weight: bold;
+}
+.testimonial-para {
+  font-size: 18px;
+}
+.testimonial-image-wrapper {
+  margin-top: -25px;
+}
+.testimonial2 {
+  margin-top: 5rem;
+  margin-left: 3.5rem;
+}
+.costumers {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.costumer-header {
+  font-family: Popins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+.costumer-para {
+  font-size: 18px;
+  font-family: popins;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.text-section {
+  background-color: var(--lightGreen-1);
+  border-radius: 12px;
+  flex: 2;
+  margin-top: auto;
+  padding-bottom: 50px;
+  margin-bottom: auto;
+}
+/* designinng for large screen-home page*/
+@media only screen and (min-width: 668px) {
+  .hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero-right {
+    flex: 4;
+  }
+  .hero-left {
+    flex: 5;
+  }
+  .hero-heading {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    line-height: 1em;
+  }
+  .hero-right img {
+    width: 350px;
+  }
+  .hero-left-wrapper {
+    width: 100%;
+    margin-top: 90px;
+  }
+  .hero-info {
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.8rem;
+  }
+  .hero-imgwrapper {
+    max-width: none;
+    width: 100%;
+  }
+  /*designning discount section for large*/
+  .discount-wrapper {
+    flex-direction: row;
+    gap: 6rem;
+    padding: 2rem;
+    align-items: center;
+    background-size: 150px;
+    margin: 0 auto;
+  }
+  .discount-images {
+    flex: 4;
+  }
+  .discount-info {
+    flex: 2;
+  }
+  .discount-text {
+    font-size: 2.4rem;
+  }
+  .discount-title {
+    font-size: 3.6rem;
+  }
+  .discount-price {
+    font-size: 2.4rem;
+  }
+  .promo-header {
+    font-size: 5rem;
+    margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .promo-text {
+    font-size: 2rem;
+    font-style: raleway;
+    padding-top: 18px;
+  }
+  .resturant-wrapper video {
+    object-fit: cover;
+  }
+  #video1 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .text {
+    padding-left: 25px;
+  }
+  /* designing costumer say in larger screen*/
+  .costumers {
+    flex-direction: row;
+  }
+  .costumer-header {
+    font-size: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 10px;
+  }
+  .costumer-para {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  .text-section {
+    padding-bottom: 50px;
+  }
+}
