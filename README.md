@@ -74,7 +74,14 @@ git push origin branch_name
 - [Project 15: Random Gredient Generator](https://github.com/letdummy/Simple-to-Advance/tree/master/15.%20Random%20Gredient%20Generator)
 - [Project 16: Simple Library Mangagement System](https://github.com/letdummy/Simple-to-Advance/tree/master/16.%20Simple%20Library%20Management%20System)
 - [Project 17: Awesome Animated Signup Form](https://github.com/letdummy/Simple-to-Advance/tree/master/17.%20Awesome%20Animated%20Signup%20Form)
-
+- [Project 18: Pong Game](https://github.com/letdummy/Simple-to-Advance/tree/master/18.%20Pong%20Game)
+- [Project 19: Crypto Currency website codes](https://github.com/letdummy/Simple-to-Advance/tree/master/19.%20Crypto%20Currency%20website%20codes)
+- [Project 20: Calculator](https://github.com/letdummy/Simple-to-Advance/tree/master/20.%20Calculator)
+- [Project 21: Twitter Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/21.%20Twitter%20Clone)
+- [Project 22: Weather Project](https://github.com/letdummy/Simple-to-Advance/tree/master/22.%20Weather%20Project)
+- [Project 23: RGB Color Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20RGB%20Color%20Game)
+- [Project 24: Netflix Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/24.%20Netflix%20Clone)
+- [Project 25: Memory Card Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20Memory%20Card%20Game)
 
  
 
