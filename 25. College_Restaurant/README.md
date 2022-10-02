@@ -1,4 +1,4 @@
-# This repository is created under  FUTURE READY TALENT INTERNSHIP 
+#   CU-RESTAURANT 
 <br>
 <h1>
 To run this website  click on this link below <br>
@@ -31,13 +31,6 @@ One of the most popular college resturant in the capital, CU resturant enjoys a 
 # Contact Page 
 
 ![WhatsApp Image 2022-05-20 at 7 37 17 PM](https://user-images.githubusercontent.com/85225156/169545825-328569b4-ee53-4a5f-b21a-4aa92fece6f7.jpeg)
-
-<br>
-
-# U CAN CHECK THE VIDEO FOR THIS PROJECT BY CLICKING ON THE LINK BELOW
-<br>
-
-# [Project video](https://youtu.be/AnqDyx7UWPk)
 
 <br>
 
