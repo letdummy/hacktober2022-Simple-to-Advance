@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(5, 12, 14);
+}
+
+#calculator {
+    width: 23rem;
+    height: 75%;
+    background-color: rgb(5, 12, 14);
+    box-shadow: 0 0 24px 10px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    width: 100%;
+    min-height: 6rem;
+    overflow-wrap: break-word;
+    font-family: "poppins";
+    background-color: rgb(5, 12, 14) !important;
+    text-align: right;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.type,
+.result {
+    background-color: rgb(5, 12, 14);
+
+}
+
+.row-con {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.row-con>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    font-weight: bold;
+    border: 0.5px solid #333;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.row-con>div:hover {
+    background-color: #444444;
+    border: 0.5px solid rgb(109, 109, 109);
+}
+
+.row-con>div:active {
+    transform: scale(0.9);
+}
+
+.cal-pad {
+    height: 25rem;
+}
+
+.item-eq {
+    background-color: #f5672c !important;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    grid-area: 4/4/6/4;
+}
+
+.item-eq:hover {
+    background-color: #f57945 !important;
+}
+
+.dark {
+    background-color: rgb(37, 37, 37) !important;
+}
+
+.dark:hover {
+    background-color: rgb(58, 58, 58) !important;
+}
+
+.dark {
+    font-family: digital;
+}
+
+span.type {
+    font-size: 3rem;
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    transition: all 0.2s;
+}
+
+.active {
+    top: 0px !important;
+}
+
+span.result {
+    font-size: 1.4rem;
+    display: block;
+}
+
+.itemAC {
+    background-color: rgb(172, 58, 58) !important;
+    font-family: "Share Tech Mono" !important;
+    font-weight: normal !important;
+}
+
+.itemAC:hover {
+    background-color: rgb(134, 65, 65) !important;
+}
+
+@media (max-width: 400px) {
+    #calculator {
+        width: 19rem;
+    }
+
+    .cal-pad {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 300px) {
+    #calculator {
+        width: 15rem;
+    }
+
+    .cal-pad {
+        height: 18rem;
+    }
+}
