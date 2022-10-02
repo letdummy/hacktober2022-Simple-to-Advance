@@ -1,0 +1,204 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Baloo Bhai 2", cursive;
+    /* font-size: 48px; */
+  }
+  .toppart
+  {
+    background-color: #1d1a1d;
+    /* height: 10%; */
+      margin: 0px 0px -17px 0px;
+      /* padding: 20px; */
+      /* border: 20px solid pink; */
+      /* background-color: rgb(143, 143, 13); */
+  }
+  .sign {
+    /* position:absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 40%; */
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #6b1839,
+      transparent
+    );
+  /* transform: translate(-50%, -50%); */
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 75px;
+  padding-left: 10px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+  }
+  
+  .middle
+  {
+    /* border: 10px solid goldenrod; */
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    /* color: white; */
+    /* font-style: inherit; */
+  }
+
+  
+  .change
+  {
+    text-align: center;
+    color: white;
+      /* border: 10px solid black; */
+      font: 'Great Vibes', Helvetica, sans-serif;
+      color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+      font-size: 58px;
+      padding-bottom: 20px;
+  }
+  .midpart
+  {
+      border: 2px solid white;
+      color: black;
+      font-size: 22px;
+      display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+      background-color: white;
+      padding: 10px 0px 10px 10px;
+  }
+  button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(90, 24, 24);;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+  }
+  button:hover {
+    background-color:  rgb(90, 24, 24);
+    color: white;
+  }
+  #newgame
+  {
+      /* margin-right: 10%; */
+    width: 30%;
+    /* border: 10px solid black; */
+    text-align: center;
+  }
+  .gametext
+  {
+      width: 33%;
+      /* border: 10px solid greenyellow; */
+      text-align: center;
+  }
+
+   .levels
+  {
+    width: 33%;
+      /* border: 10px solid rgb(223, 23, 23); */
+      justify-content: center;
+      text-align: center;
+  }
+
+.lastpart
+{
+    background-color: white;
+    /* border: 10px solid greenyellow; */
+    height: 490px;
+    background-color: rgb(51, 47, 47);
+    /* margin: 1% 0%; */
+}
+
+
+.easycards
+{
+     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     /* border: 15px solid green; */
+}
+.card
+{
+    color: white;
+    cursor: pointer;
+}
+.card1
+{
+   
+    width: 13%;
+    margin: 2% 0% 0% 25%;
+    height: 169px;
+    margin-bottom: 14px;
+    border-radius: 19px;
+    /* background-color: blue; */
+    /* border: 5px; */
+}
+.card2
+{
+    
+    width: 13%;
+    margin: 2% 0% 0% 0%;
+    margin-bottom: 14px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border-radius: 19px;
+    /* background-color: aquamarine; */
+    /* border: 5px solid aquamarine; */
+}
+.card3
+{
+    width: 13%;
+    margin: 2% 0% 0% 0%;
+    /* margin: 0% 10% 0% 0%; */
+    margin-bottom: 14px;
+    border-radius: 19px;
+    /* background-color: cadetblue; */
+    /* border: 5px solid cadetblue; */
+   
+}
+.card4
+{
+    
+    width: 13%;
+    margin: 0% 0% 0% 25%;
+    height: 169px;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: rgb(152, 224, 36);
+    border: 5px solid rgb(152, 224, 36); */
+}
+.card5
+{
+    width: 13%;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: darkorange;
+    border: 5px solid  darkorange; */
+} 
+.card6
+{
+    
+    width: 13%;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: darkkhaki;
+    border: 5px solid darkkhaki; */
+}
+
