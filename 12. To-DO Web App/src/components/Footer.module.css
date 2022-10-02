@@ -1,0 +1,33 @@
+.footer{
+    background-color: #fff;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+    width: 40%;
+    justify-content: space-between;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #E6E6E6;
+}
+
+.left{
+    margin-left: .8rem;
+    /* text-decoration: none; */
+}
+
+.clear{
+    margin-right: .8rem;
+}
+
+.btn{
+    margin-left: 1rem;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .2rem;
+    border-color: pink;
+}
