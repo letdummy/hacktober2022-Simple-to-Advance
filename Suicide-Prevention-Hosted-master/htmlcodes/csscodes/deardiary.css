@@ -1,0 +1,60 @@
+body {
+
+    background-image: url(./photo/deardiarybg.png);
+       width: 600px;
+       margin: 0 auto;
+       padding: 0;
+     }
+     h4 {
+       color: #cd0000;
+       font-size: 42px;
+       letter-spacing: -2px;
+       text-align: left;
+     }
+     .list {
+       color: #555;
+       font-size: 22px;
+       padding: 0 !important;
+       width: 500px;
+       font-family: courier, monospace;
+       border: 1px solid #dedede;
+     }
+     .list li {
+       font-family: 'Dancing Script', cursive;
+       background-color: white;
+       list-style: none;
+       border-bottom: 1px dotted #ccc;
+       text-indent: 25px;
+       height: auto;
+       padding: 10px;
+       text-transform: capitalize;
+     }
+     .list li:hover {
+       background-color: #f0f0f0;
+       -webkit-transition: all 0.2s;
+       -moz-transition:    all 0.2s;
+       -ms-transition:     all 0.2s;
+       -o-transition:      all 0.2s;
+     }
+     .lines {
+       border-left: 1px solid #ffaa9f;
+       border-right: 1px solid #ffaa9f;
+       width: 2px;
+       float: left;
+       height: 486px;
+       margin-left: 40px;
+     }
+     .all{
+       position: relative;
+       left :104px;
+       top:30px
+     }
+     button{
+       position: relative;
+       left: 11px;
+       top:50px
+     }
+     .btn{
+       position: relative;
+       left: 30px;
+     }
