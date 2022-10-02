@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="csscodes/diet.css">
+    <link rel="stylesheet" href="csscodes/index.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+
+    <title>Diet </title>
+</head>
+
+<body style="background-color: #ffff ;">
+ 
+    <div class="text-center">
+        <h1 class="display-4" style="font-family: 'Suez One', serif;">Diet</h1>
+        <hr class="w-25 mx-auto" />
+    </div>
+    <div class="text-center">
+        <p class="mx-2">The gut is able to influence emotional behavior in the brain, the brain can also alter the type
+            of bacteria living in the gut. <br>But since it could be hard to pay close attention to your eating habits,
+            start a food journal. It will be a great way to gain insight into your eating pattern.<br>The brain is 75%
+            water so it depends on proper hydration to function optimally. So make sure you're drinking your 8 glass of
+            water daily.</p>
+    </div>
+    <div>
+        <label class="radio-img">
+            <input type="checkbox" name="layout" value="L" />
+            <div class="image" style="background-image: url(photos/diet/food.jpeg);">
+            </div>
+            <h6 class="mood-text" style="text-align: center;"></h6>
+        </label>
+        <!-- ---------------------------------------------------------------  -->
+        <label class="radio-img1">
+            <input type="checkbox" name="layout" value="L" />
+            <div class="image"
+                style="background-image: url(photos/diet/water.jpeg);">
+            </div>
+            <h6 class="mood-text" style="text-align: center;"></h6>
+        </label>
+    </div>
+    <div class="d-grid gap-2 col-2 mx-auto my-5">
+
+        <!-- popup  -->
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">×</div>
+                <h1>Food & Water</h1>
+                <div class="mb-2">
+                    <label for="formGroupExampleInput" class="form-label">What did you eat?</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Breakfast/Lunch/Dinner">
+                </div>
+                <div class="mb-2">
+                    <label for="formGroupExampleInput2" class="form-label">How many glasses of water did you
+                        drink?</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="In a day">
+
+                </div>
+            </div>
+            <button onclick="togglePopup()">FOOD</button>
+
+            <div class="d-grid gap-2 col-2 mx-auto my-5">
+                <a href="mood.html">
+                    <button2 class="btn btn-dark" type="button"
+                        style="box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.25), 0 0.5rem 0.5rem rgba(0, 0, 0, 0.22);">
+                        Submit</button2>
+                </a>
+            </div>
+
+            <button1 onclick="togglePopup()">WATER</button1>
+        </div>
+        <!-- Java for popup  -->
+        <script>
+            function togglePopup() {
+                document.getElementById("popup-1").classList.toggle("active");
+            }
+        </script>
+ 
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
