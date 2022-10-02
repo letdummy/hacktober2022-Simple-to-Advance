@@ -20,13 +20,13 @@
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/simple-advance-web-project.git
+git clone https://github.com/your-username/Simple-to-Advance.git
 ```
 
 3. Add upstream URL 
 
 ```markdown
-git remote set-url origin https://github.com/your-username/simple-advance-web-project.git
+git remote set-url origin https://github.com/your-username/Simple-to-Advance.git
 ```
 
 4. Create a new branch
@@ -63,7 +63,27 @@ git push origin branch_name
 - [Project 04: Tribute_Page](https://github.com/letdummy/Simple-to-Advance/tree/master/04.%20Tribute_Page)
 - [Project 05: Food Website Landing Page](https://github.com/letdummy/Simple-to-Advance/tree/master/05.%20Food%20Website%20Landing%20Page)
 - [Project 06: Stopwatch](https://github.com/letdummy/Simple-to-Advance/tree/master/06.%20Stopwatch)
+- [Project 07: Drum Kit](https://github.com/letdummy/Simple-to-Advance/tree/master/07.%20Drum%20Kit)
+- [Project 09: PING PONG](https://github.com/letdummy/Simple-to-Advance/tree/master/08.%20PING%20PONG)
+- [Project 10: Guess-My-Number](https://github.com/letdummy/Simple-to-Advance/tree/master/10.%20Guess-My-Number)
+- [Project 11: Suicide Prevention Hosted](https://github.com/letdummy/Simple-to-Advance/tree/master/11.%20Suicide%20Prevention%20Hosted)
+- [Project 12: Calculator](https://github.com/letdummy/Simple-to-Advance/tree/master/12%20.%20Calculator)
+- [Project 12 TO-DO Web App](https://github.com/letdummy/Simple-to-Advance/tree/master/12.%20To-DO%20Web%20App)
+- [Project 13: Survey Form](https://github.com/letdummy/Simple-to-Advance/tree/master/13.%20Survey%20Form)
+- [Project 14: Musical Site Landing Page](https://github.com/letdummy/Simple-to-Advance/tree/master/14.%20Music%20Site%20Landing%20Page)
+- [Project 15: Random Gredient Generator](https://github.com/letdummy/Simple-to-Advance/tree/master/15.%20Random%20Gredient%20Generator)
+- [Project 16: Simple Library Mangagement System](https://github.com/letdummy/Simple-to-Advance/tree/master/16.%20Simple%20Library%20Management%20System)
+- [Project 17: Awesome Animated Signup Form](https://github.com/letdummy/Simple-to-Advance/tree/master/17.%20Awesome%20Animated%20Signup%20Form)
+- [Project 18: Pong Game](https://github.com/letdummy/Simple-to-Advance/tree/master/18.%20Pong%20Game)
+- [Project 19: Crypto Currency website codes](https://github.com/letdummy/Simple-to-Advance/tree/master/19.%20Crypto%20Currency%20website%20codes)
+- [Project 20: Calculator](https://github.com/letdummy/Simple-to-Advance/tree/master/20.%20Calculator)
+- [Project 21: Twitter Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/21.%20Twitter%20Clone)
+- [Project 22: Weather Project](https://github.com/letdummy/Simple-to-Advance/tree/master/22.%20Weather%20Project)
+- [Project 23: RGB Color Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20RGB%20Color%20Game)
+- [Project 24: Netflix Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/24.%20Netflix%20Clone)
+- [Project 25: Memory Card Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20Memory%20Card%20Game)
 
+ 
 
  ## 😄 Shoutout to all the contributors ❤️ 
  note: <i>it will take a few days to update your profile here</i>
