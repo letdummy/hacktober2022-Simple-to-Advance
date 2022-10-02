@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero .btn {
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
