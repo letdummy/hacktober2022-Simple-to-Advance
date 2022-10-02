@@ -95,7 +95,10 @@ input[type="submit"]{
   outline: none;
 }
 input[type="submit"]:hover{
-  border-color: #2691d9;
+  border-color: black;
+  background-color: black;
+  font-weight: 1000;
+  font-size: larger;
   transition: .5s;
 }
 .signup_link{
