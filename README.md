@@ -1,77 +1,70 @@
-## <h1 align="center">“Talk is cheap. Show me the code.” ~ Linus Torvalds:thought_balloon:</h1>
-<br>
-  <p align="center">
-  <a><img src="https://i.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.webp" alt="image" width="500"></a>
-<br>
+# Getting Started with Create React App
 
-# 🐱‍💻 Simple-to-Advance Web Project (SAWP)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-📌 This repository contains many projects based on web development i.e simple-to-advance level projects so that people in this community can easily learn the website development directly in real life project.
+## Available Scripts
 
-📌 100% Open Source. This repository is open to all members of GitHub community.
+In the project directory, you can run:
 
-📌 If you think this project is helpful, please add a ⭐ to this repository.
+### `npm start`
 
-<br>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🏷️ To get started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. First, fork the repository.
-2. Clone the forked repository to your local machine.
+### `npm test`
 
-```markdown
-git clone https://github.com/your-username/simple-advance-web-project.git
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Add upstream URL 
+### `npm run build`
 
-```markdown
-git remote set-url origin https://github.com/your-username/simple-advance-web-project.git
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. Create a new branch
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```markdown
-git checkout -b new_branch_name
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-5. Make your contribution
+### `npm run eject`
 
-6. Commit and push the changes
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```markdown
-git add .
-git commit -m 'Relevant message'
-git push origin branch_name
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-8. Wait for your PR's review and approval from the maintainers.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-  <br>
-  
-<p align = "center">
-  <image  src="https://c.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" alt="image" width="200">
-</p>
-  
-  
-#   <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width=29> Table of Contents
-- [Project 01: HTML and CSS Epic Login Form](https://github.com/letdummy/Simple-to-Advance/tree/master/01.%20HTML%20and%20CSS%20Epic%20Login%20Form)
-- [Project 02: Basic Static WebPages Chess Content or rules](https://github.com/letdummy/Simple-to-Advance/tree/master/02.%20Basic%20Static%20WebPages%20Chess%20Content%20or%20rules)
-- [Project 03: Mars Rover Image](https://github.com/letdummy/Simple-to-Advance/tree/master/03.%20Mars%20Rover%20Image)
-- [Project 04: Tribute_Page](https://github.com/letdummy/Simple-to-Advance/tree/master/04.%20Tribute_Page)
-- [Project 05: Food Website Landing Page](https://github.com/letdummy/Simple-to-Advance/tree/master/05.%20Food%20Website%20Landing%20Page)
-- [Project 06: Stopwatch](https://github.com/letdummy/Simple-to-Advance/tree/master/06.%20Stopwatch)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
- ## 😄 Shoutout to all the contributors ❤️ 
- note: <i>it will take a few days to update your profile here</i>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<a href="https://github.com/letdummy/Simple-to-Advance/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=letdummy/Simple-to-Advance" />
-</a>
-<br>
-<br>
+### Code Splitting
 
-<p align="center">Made with ❤️ by all contributors </p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
