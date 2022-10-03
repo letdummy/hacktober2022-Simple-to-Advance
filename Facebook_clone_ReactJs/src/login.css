@@ -1,0 +1,27 @@
+.login img {
+  object-fit: contain;
+  height: 120px;
+}
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.login__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login button {
+  z-index: 1;
+  padding: 40px;
+  background-color: red;
+}
+.login__info__div {
+  padding: 10px 50px 10px 50px;
+  background-color: #2229f7ba;
+  color: white;
+  font-family: poppins;
+  cursor: pointer;
+}

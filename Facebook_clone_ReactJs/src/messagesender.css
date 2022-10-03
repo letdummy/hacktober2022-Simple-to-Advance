@@ -1,0 +1,70 @@
+.messagesender__top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 8px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+
+.messagesender__top input {
+  width: 90%;
+  border: none;
+  background-color: #f1f2f5;
+  outline-width: 0;
+  border-radius: 19px;
+  padding: 10px;
+  font-size: 16px;
+}
+.messagesender__bottom {
+  display: flex;
+  border-top: 1px solid #dddde4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 20px 8px 20px;
+  transition: all 100ms ease-in;
+}
+.icons:hover {
+  background-color: #f1f2f5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.icons h4 {
+  color: green;
+  font-family: sans-serif;
+}
+.messegesender {
+  height: 101px;
+  background-color: white;
+  padding-top: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+button {
+  background-color: rgb(106, 102, 102);
+  border: green;
+  border-radius: 12px;
+  padding: 6px 20px 6px 20px;
+  color: white;
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  button {
+    display: visible;
+  }
+}
