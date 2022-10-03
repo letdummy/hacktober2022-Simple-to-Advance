@@ -1,0 +1,15 @@
+.app {
+  background-color: #f1f2f5;
+}
+.widgets {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.app__body {
+  display: flex;
+  gap: 40px;
+}
+.feed {
+  max-width: 527px;
+  margin-right: auto;
+}
