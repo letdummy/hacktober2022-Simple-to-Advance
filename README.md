@@ -94,6 +94,16 @@ git push origin branch_name
 - [Project 34. Facebook Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/34.%20Facebook%20Clone)
 - [Project 35. Snake Game](https://github.com/letdummy/Simple-to-Advance/tree/master/35.%20Snake%20Game)
 
+- [Project 36: Spotify Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/36.%20Spotify%20Clone)
+- [Project 37: Steve Jobs Timeline](https://github.com/letdummy/Simple-to-Advance/tree/master/37.%20Steve%20Jobs%20Timeline)
+- [Project 38: College_Restaurant](https://github.com/letdummy/Simple-to-Advance/tree/master/38.%20College_Restaurant)
+- [Project 39: Food delivery website design](https://github.com/letdummy/Simple-to-Advance/tree/master/39.%20Instagram_login_signup_page%20clone)
+- [Project 40: Javascript Password generator](https://github.com/letdummy/Simple-to-Advance/tree/master/40.%20Javascript%20Password%20generator)
+- [Project 41: Movie API List](https://github.com/letdummy/Simple-to-Advance/tree/master/41.%20Movie%20API%20List)
+
+
+  
+  
 ## 😄 Shoutout to all the contributors ❤️
 
 note: <i>it will take a few days to update your profile here</i>
