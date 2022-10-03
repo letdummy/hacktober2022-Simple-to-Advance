@@ -4,8 +4,6 @@
 A brief description of what this project does and who it's for
 
 
-## 🔗 Video URL
-[Youtube URL](https://youtu.be/_Zoe_VtBp7Q)
 
 
 
