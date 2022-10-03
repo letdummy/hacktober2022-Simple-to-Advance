@@ -1,0 +1,59 @@
+.header {
+  /* It always remains 95% of total height */
+  height: 95vh;
+  /* In this color starts from left to right bottom */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+        /* Here, 0.8 is the opacity means, 80% of the color is visible  */
+    ),
+    url(../img/hero-small.jpg);
+  /* It will cover background's whole width */
+  background-size: cover;
+  /* It sticks to the top of the background and on resizing the windowo it gets crop from bottom but remain attached to the top */
+  background-position: top;
+  position: relative;
+  /* To play around with shapes we'll use clip path property */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  // This is called CSS responsive images, we used dpi(dots per second, apple's high resolution)
+
+  @media only screen and (min-width: 192dpi) and (min-width: 37.5em),
+    only screen and (min-width: 125em) {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+      ),
+      url(../img/hero.jpg);
+  }
+
+  @include respond(phone) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
+  // Nesting
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* If we don't use transform property, it not gonna be center because its absolute position is related to its parent element */
+    /* but as we use the transform property then its position is gonna be in relation with itself */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
