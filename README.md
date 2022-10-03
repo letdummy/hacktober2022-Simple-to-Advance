@@ -100,7 +100,12 @@ git push origin branch_name
 - [Project 39: Food delivery website design](https://github.com/letdummy/Simple-to-Advance/tree/master/39.%20Instagram_login_signup_page%20clone)
 - [Project 40: Javascript Password generator](https://github.com/letdummy/Simple-to-Advance/tree/master/40.%20Javascript%20Password%20generator)
 - [Project 41: Movie API List](https://github.com/letdummy/Simple-to-Advance/tree/master/41.%20Movie%20API%20List)
-
+- [Project 42: Cash Register in Javascript](https://github.com/letdummy/Simple-to-Advance/tree/master/42.%20Cash%20Register%20in%20Javascript)
+- [Project 43: Harry Potter Quiz A CLI quiz in js](https://github.com/letdummy/Simple-to-Advance/tree/master/43.%20Harry%20Potter%20CLI%20Quiz%20App%20with%20Javascript)
+- [Project 44: Instagram Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/44.%20Instagram%20Clone)
+- [Project 45: Image Compressor](https://github.com/letdummy/Simple-to-Advance/tree/master/45.%20Image%20Compressor)
+- [Project 46: Natours Project](https://github.com/letdummy/Simple-to-Advance/tree/master/46.%20Natours%20Project)
+- [Project 47: Spy number](https://github.com/letdummy/Simple-to-Advance/tree/master/47.%20Spy%20number)
 
   
   
