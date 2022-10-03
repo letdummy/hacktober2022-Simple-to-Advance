@@ -1,0 +1,123 @@
+:root {
+	--primary-color: #cce3de;
+	--secondary: #black;
+	--ash-grey: #b2beb5;
+}
+* {
+	font-family: font;
+	font-size: 1.25rem;
+	color: var(--secondary);
+	background-color: var(--primary);
+}
+@font-face {
+	font-family: font;
+	src: url(Carnevalee\ Freakshow.ttf);
+}
+
+body {
+	margin: 0;
+	/* margin-top: 2rem; */
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+	background-color: var(--ash-grey);
+}
+
+.label {
+	font-size: 1.3rem;
+	padding: 1.5rem 1rem 1rem;
+}
+
+.input-area {
+	font-size: 1.2rem;
+	outline: #fff;
+	padding: 0.6rem 1rem;
+	margin: 1rem auto;
+	border: 2px solid var(--primary-color);
+	border-radius: 0.5rem;
+	width: 100%;
+	max-width: 280px;
+	display: block;
+}
+
+.button {
+	background: var(--primary-color);
+	border: none;
+	color: black;
+	padding: 0.7rem 1rem;
+	border-radius: 0.5rem;
+	font-size: large;
+	cursor: pointer;
+	outline: black;
+	margin: 0.5rem auto;
+	display: block;
+}
+
+#error-message {
+	padding-top: 1rem;
+	color: red;
+	font-size: larger;
+	font-weight: bold;
+}
+
+#caption {
+	padding: 1rem;
+}
+
+.output-table {
+	margin: 0.5rem 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.change-table,
+th,
+td {
+	padding: 0.4rem;
+	margin: auto;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+#cash-given-section {
+	display: none;
+}
+
+#notes-section {
+	display: none;
+	margin: auto;
+}
+
+footer {
+	/* position: fixed;
+    bottom: 0; */
+	font-family: "Noto Sans", sans-serif;
+	/* width: 100%; */
+	padding: 1.5rem 1rem 0rem 1.5rem;
+	text-align: center;
+	background-color: var(--ash-grey);
+	font-size: 1.5rem;
+}
+
+footer ul {
+	padding-inline-start: 0px;
+}
+.social-link {
+	max-width: 30px;
+	padding: 0.5rem;
+	margin: auto;
+}
+
+.list-item-inline {
+	display: inline;
+	padding: 0rem 1rem;
+}
+.list-non-bullet {
+	list-style: none;
+}
