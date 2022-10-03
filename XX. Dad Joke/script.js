@@ -9,8 +9,10 @@ jokeButton.addEventListener("click", () => {
     bg.classList.remove("haha");
     rvl.classList.remove("show");
     loader.classList.remove("hidden");
-    setTimeout(fetchData, 3000);
+    setTimeout(fetchData, 1000);
 });
+
+fetchData();
 
 function fetchData() {
     fetch("https://icanhazdadjoke.com", {
