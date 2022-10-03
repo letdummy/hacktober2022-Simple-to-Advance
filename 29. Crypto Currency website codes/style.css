@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+header{
+    background-color: #372756;
+    width: auto;
+    height: 100vh;
+ 
+}
+ 
+.logo_img{
+    margin-left: 152px;
+}
+ 
+.logo_text{
+    display: inline-block;
+    margin-left:197px;
+    position: absolute;
+    bottom: 20px;
+}
+ 
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+ 
+ul li {
+    display: inline-block;
+}
+ 
+ul li a 
+{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+    font-weight: 700;
+    transition: 0.6 ease;
+ 
+}
+ 
+ul li a:hover{
+    background-color: white;
+    color: black;
+     
+}
+ 
+.title{
+    font-size:30px;
+    position: absolute;
+    top: 40%;
+    margin-left:152px;
+    font-size: 32px;
+    font-weight: 200;
+     
+    color: white;
+}
+ 
+.title_p{
+    font-size: 44px;
+    font-weight: 600;
+}
+.title_p2{
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+    bottom: 7px;
+     
+}
+ 
+.button
+{
+    position: relative;
+    top: 7px;
+}
+ 
+.button_link{
+    text-decoration: none;
+    font-size: 20px;
+    padding:5px 40px;
+    border-radius: 30px;
+     
+    background-image: linear-gradient(to right, #669ce6,#b667dd,#f530c9);
+        color: white
+}
+ 
+.pic{
+    float: right;
+    position: relative;
+    top: 160px;
+    right: 100px;
+}
+ 
+.pic {
+     
+    width: 320px;
+    height: 320px;
+     
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
