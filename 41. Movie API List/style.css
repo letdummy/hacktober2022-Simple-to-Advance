@@ -1,0 +1,47 @@
+body{
+  /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  background-repeat: no-repeat;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 15px 0 15px 0;
+  border-radius: 20px !important;
+  background-color: #caf0f8 !important;
+}
+
+.card img{
+  border-radius: 20px !important;
+}
+
+.card-text{
+  padding: 5px 5px;
+  margin: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.rating{
+  height: 40px;
+  border: 5px solid #4361ee;
+  border-radius: 11px;
+  padding: 1px 10px;
+}
+
+.card-title{
+  font-family: 'Gentium Book Plus', serif;
+  font-size: 35px;
+}
+
+.button{
+  font-size: 15px;
+  font-weight: bold !important;
+}
