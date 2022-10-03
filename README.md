@@ -83,16 +83,7 @@ git push origin branch_name
 - [Project 23: RGB Color Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20RGB%20Color%20Game)
 - [Project 24: Netflix Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/24.%20Netflix%20Clone)
 - [Project 25: Memory Card Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20Memory%20Card%20Game)
-- [Project 26. Responsive omnifood project](https://github.com/letdummy/Simple-to-Advance/tree/master/26.%20Responsive%20omnifood%20project)
-- [Project 27. Joke Teller](https://github.com/letdummy/Simple-to-Advance/tree/master/27.%20Joke%20Teller)
-- [Project 28. Random Gredient Generator](https://github.com/letdummy/Simple-to-Advance/tree/master/28.%20Random%20Gredient%20Generator)
-- [Project 29. Crypto Currency website codes](https://github.com/letdummy/Simple-to-Advance/tree/master/29.%20Crypto%20Currency%20website%20codes)
-- [Project 30. Text Modifier](https://github.com/letdummy/Simple-to-Advance/tree/master/30.%20Text%20Modifier)
-- [Project 31. Analog Clock](https://github.com/letdummy/Simple-to-Advance/tree/master/31.%20Analog%20Clock)
-- [Project 32. Minimalist Fitness website](https://github.com/letdummy/Simple-to-Advance/tree/master/32.%20Minimalist%20Fitness%20website)
-- [Project 33. Drawing App](https://github.com/letdummy/Simple-to-Advance/tree/master/33.%20Drawing%20App)
-- [Project 34. Facebook Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/34.%20Facebook%20Clone)
-- [Project 35. Snake Game](https://github.com/letdummy/Simple-to-Advance/tree/master/35.%20Snake%20Game)
+- [Project 26: Analog Clock](https://github.com/letdummy/Simple-to-Advance/tree/master/26.%20Analog%20Clock)
 
 ## 😄 Shoutout to all the contributors ❤️
 
