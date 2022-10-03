@@ -1,0 +1,51 @@
+<div class="container">
+	<h2 class="title">Password Generator</h2>
+	<div class="result">
+		<div class="result__title field-title">Generated Password</div>
+		<div class="result__info right">click to copy</div>
+		<div class="result__info left">copied</div>
+		<div class="result__viewbox" id="result">CLICK GENERATE</div>
+		<button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
+	</div>
+	<div class="length range__slider" data-min="4" data-max="32">
+		<div class="length__title field-title" data-length='0'>length:</div>
+		<input id="slider" type="range" min="4" max="32" value="16" />
+	</div>
+
+	<div class="settings">
+		<span class="settings__title field-title">settings</span>
+		<div class="setting">
+			<input type="checkbox" id="uppercase" checked />
+			<label for="uppercase">Include Uppercase</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="lowercase" checked />
+			<label for="lowercase">Include Lowercase</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="number" checked />
+			<label for="number">Include Numbers</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="symbol" />
+			<label for="symbol">Include Symbols</label>
+		</div>
+	</div>
+
+	<button class="btn generate" id="generate">Generate Password</button>
+</div>
+
+
+<div class="support">
+	<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+	<a href="https://codepen.io/dev_loop/" target="_blank"><i class="fab fa-codepen"></i></a>
+</div>
+
+<a class="github-corner" href="https://github.com/devloop01/password-generator" title="Fork me on GitHub" target="_blank">
+	<svg width="80" height="80" viewbox="0 0 250 250">
+		<title>Fork me on GitHub</title>
+		<path d="M0 0h250v250" />
+		<path class="octo-arm" d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2" fill="currentColor" style="transform-origin:130px 110px;" />
+		<path class="octo-body" d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z" fill="currentColor" />
+	</svg>
+</a>
