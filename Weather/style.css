@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: #000;
+    opacity: 0.6;
+    padding: 2em;
+    border-radius: 30px 0px 30px 0px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coordinates{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main{
+    padding-top: 5px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+#center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.othertemp{
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.alts{
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: invert;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px 0px 18px 0px;
+    background: #7c7c7c2b ;
+    color: #fff;
+    font-size: 120%;
+}
