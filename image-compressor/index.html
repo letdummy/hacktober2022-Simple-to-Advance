@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>compressorjs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="w-screen h-screen grid place-items-center">
+    <div>
+      <h4 class="mb-8 text-4xl font-[600] text-rose-500">
+        Image compression using compressorjs
+      </h4>
+      <form action="/" class="">
+        <input
+          type="file"
+          name="myfile"
+          accept=".jpg , .png , .jpeg"
+          class="border outline-none border-slate-600 w-76 p-2 px-4 rounded-full input"
+        />
+        <!-- <button
+          type="submit"
+          class="bg-teal-600 py-2 px-4 text-white rounded-full"
+        >
+          Compress
+        </button> -->
+      </form>
+      <div
+        class="p-4 border mx-auto auto my-6 border-slate-600 rounded-md text-center"
+      >
+        <img
+          src="https://www.ultimatesource.toys/wp-content/uploads/2013/11/dummy-image-landscape-1-300x171.jpg"
+          alt="before"
+          class="before w-[400px] h-44 border border-slate-600 inline-block object-cover m-4 bg-slate-100"
+        />
+        <img
+          src="https://www.ultimatesource.toys/wp-content/uploads/2013/11/dummy-image-landscape-1-300x171.jpg"
+          alt="after"
+          class="after w-[400px] h-44 border border-slate-600 inline-block auto object-cover m-4 bg-slate-100"
+        />
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
