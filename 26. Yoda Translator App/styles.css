@@ -1,0 +1,101 @@
+/* https://loading.io/color/feature/StarWars-Yoda/ */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap");
+
+:root {
+	--primary-color: #75934e;
+	--secondary-color: #3c3c20;
+	--width-center: 600px;
+}
+
+body {
+	font-family: "Cormorant SC", serif;
+	margin: 0px;
+	font-size: 2rem;
+}
+
+body .main {
+	margin: auto;
+	padding: 1rem;
+	padding-bottom: 5rem;
+	max-width: var(--width-center);
+}
+
+header {
+	background-color: var(--primary-color);
+	text-align: center;
+	padding: 1.5rem 0.7rem;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+header h1 {
+	margin: 1rem 0rem;
+}
+
+header p {
+	font-size: 1.5rem;
+	max-width: var(--width-center);
+	margin: auto;
+}
+
+.hero-img {
+	max-width: 500px;
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 1rem;
+}
+
+textarea {
+	font-size: large;
+	border: 2px solid black;
+	width: 100%;
+	max-width: var(--width-center);
+	min-height: 10vh;
+	padding: 1rem 0rem;
+	margin: 1rem 0rem;
+	height: 50px;
+}
+
+#translate-btn {
+	background-color: var(--primary-color);
+	padding: 1rem 2rem;
+	margin: 1rem 0rem;
+	font-size: 1.5rem;
+}
+
+#outputText {
+	border: 2px solid black;
+	min-height: 25vh;
+	padding: 1rem 0rem;
+	margin: 1rem 0rem;
+	height: 50px;
+}
+
+footer {
+	/* position: fixed;
+    bottom: 0; */
+	width: 100%;
+	padding: 1.5rem 1rem;
+	text-align: center;
+	background-color: var(--primary-color);
+	font-size: 1.5rem;
+}
+
+footer ul {
+	padding-inline-start: 0px;
+}
+.social-link {
+	max-width: 50px;
+	padding: 0.5rem;
+	margin: auto;
+}
+
+.list-item-inline {
+	display: inline;
+	padding: 0rem 1rem;
+}
+.list-non-bullet {
+	list-style: none;
+}
