@@ -82,7 +82,7 @@ git push origin branch_name
 - [Project 23: RGB Color Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20RGB%20Color%20Game)
 - [Project 24: Netflix Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/24.%20Netflix%20Clone)
 - [Project 25: Memory Card Game](https://github.com/letdummy/Simple-to-Advance/tree/master/23.%20Memory%20Card%20Game)
-
+- [Project 26: Analog Clock](https://github.com/letdummy/Simple-to-Advance/tree/master/26.%20Analog%20Clock)
  
 
  ## 😄 Shoutout to all the contributors ❤️ 
