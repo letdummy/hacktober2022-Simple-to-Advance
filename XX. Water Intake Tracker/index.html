@@ -18,17 +18,18 @@
             <h3>Your Goal Today <span class="goal">2 Liters</span>.
             </h3>
             <div class="cup">
+                <span id="done" class="done hide">Goal Reached!</span>
                 <div class="remained" id="remained">
-                    <span id="liters">1.5L</span>
+                    <span id="liters">2L</span>
                     <small>Remaining</small>
                 </div>
-                <div class="percentage"></div>
+                <div id="percent" class="percent"></div>
             </div>
         </div>
         <div class="wrapper">
             <p class="text">Select glasses you have drank</p>
             <div class="cups">
-                <div class="cup cup-small full">250 ml</div>
+                <div class="cup cup-small">250 ml</div>
                 <div class="cup cup-small">250 ml</div>
                 <div class="cup cup-small">250 ml</div>
                 <div class="cup cup-small">250 ml</div>
@@ -40,6 +41,7 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </body>
 
 </html>

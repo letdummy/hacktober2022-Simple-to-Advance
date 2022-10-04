@@ -40,6 +40,17 @@
     -webkit-text-fill-color: transparent !important;
 }
 
+.text-gradient-yellow {
+    background: linear-gradient(
+        -45deg,
+        var(--ascent-col-1),
+        var(--ascent-col-1l)
+    ) !important;
+    background-clip: text;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
 /** TYPOGRAPHY **/
 
 * {
@@ -123,13 +134,29 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
     overflow: hidden;
     background: var(--dark-col) !important;
-    background-image: linear-gradient(
+    background: linear-gradient(
         -45deg,
         var(--black-col),
-        var(--dark-col)
+        var(--black-col),
+        var(--black-col),
+        var(--black-col),
+        var(--black-col),
+        var(--dark-col),
+        var(--dark-col),
+        var(--dark-col),
+        var(--dark-col),
+        var(--dark-col),
+        var(--dark-col),
+        var(--m-deep-col),
+        var(--m-deep-col),
+        var(--main-col),
+        var(--main-col),
+        var(--m-light-col)
     ) !important;
+    background-repeat: no-repeat !important;
 }
 
 .background {
@@ -138,6 +165,7 @@ body {
     position: absolute !important;
     z-index: 1 !important;
     overflow: hidden !important;
+    background-repeat: no-repeat !important;
 }
 
 .wrapper {
@@ -154,6 +182,8 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.3s ease;
 }
 
 .cup {
@@ -167,6 +197,9 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
+    -moz-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
 }
 
 .cup.cup-small {
@@ -181,7 +214,10 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: 0.3 ease;
+    transition: all ease 0.3s;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
+    -moz-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.39) inset;
 }
 
 .text {
@@ -201,16 +237,44 @@ body {
 .cup.cup-small.full {
     background-color: var(--m-light-col);
     color: var(--white-col);
+    height: 80px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    transition: all ease 0.3s;
 }
 
 .remained {
+    z-index: 5;
+    padding: 50px 110px;
+    position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
     flex: 1;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.done {
+    opacity: 1;
+    font-size: 30;
+    font-weight: bold;
+    z-index: 5;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5 ease;
+    color: var(--white-col);
+}
+
+.hide {
+    opacity: 0;
+    transition: all 0.5 ease;
 }
 
 .remained span {
@@ -224,15 +288,23 @@ body {
     font-weight: 500;
 }
 
-.percentage {
+.percent {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     font-weight: bold;
-    height: 0;
-    background-color: var(--m-light-col);
-    font-size: 30px;
+    height: 100%;
+    width: 0;
+    color: var(--m-deep-col);
+    background: var(--m-light-col);
+    background-image: url("./bubble.png");
+    font-size: 18px;
     transition: 0.3s ease;
+    border-radius: 10px;
+    animation: animate 10s linear infinite;
+    background-repeat: repeat;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 .cups {
@@ -289,11 +361,27 @@ body {
     }
 }
 
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -237px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        transform: scale(1.1, 1.1);
+    }
+}
+
 @media screen and (max-width: 758px) {
     .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transform: scale(1, 1);
     }
     .wrapper {
         margin: 0px !important;
