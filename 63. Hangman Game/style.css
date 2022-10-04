@@ -1,0 +1,153 @@
+/* Variabes */
+/* Mixin's */
+body {
+    background: #ae6fb5;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 30px;
+
+  }
+  
+  .wrappper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrappper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  canvas {
+    color: #fff;
+    border: #fff dashed 2px;
+    padding: 15px;
+    float: right;
+    height: 350px;
+    width: 250px;
+  }
+  
+  h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+  
+  h1 {
+    font-size: 2.6em;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+  }
+  
+  p {
+    font-size: 1.6em;
+  }
+  
+  #alphabet {
+    margin: 15px auto;
+    padding-left: 30px;
+    padding-bottom: 90px;
+    max-width: 300px;
+    float: left;
+    
+  }
+  #alphabet:after {
+    content: "";
+    display:none;
+    clear: both;
+  }
+  
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 35px;
+    height: 30px;
+    padding-top: 10px;
+    background: #fff;
+    color: #ae6fb5;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border: solid 1px #fff;
+  }
+  #alphabet li:hover {
+    background: #ae6fb5;
+    border: solid 1px #fff;
+    color: #fff;
+  }
+  
+  #my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display: block;
+    
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+  }
+  
+  .active {
+    opacity: 0.1;
+    filter: alpha(opacity=40);
+    cursor: default;
+    
+  }
+  
+  #mylives {
+    font-size: 1.6em;
+    text-align: center;
+    display:inline;
+  }
+  #clue {
+    font-size: 1.6em;
+    text-align: center;
+    display:block;
+  }
+  
+  button {
+    border-radius: 5px;
+    background: #ae6fb5;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+    
+  }
+  button:hover {
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color:#ae6fb5;
+  }
+  
+  @media (max-width: 767px) {
+    #alphabet {
+      padding: 0 0 0 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    #alphabet {
+      padding: 0 0 0 25px;
+    }
+  }

@@ -106,6 +106,19 @@ git push origin branch_name
 - [Project 45: Image Compressor](https://github.com/letdummy/Simple-to-Advance/tree/master/45.%20Image%20Compressor)
 - [Project 46: Natours Project](https://github.com/letdummy/Simple-to-Advance/tree/master/46.%20Natours%20Project)
 - [Project 47: Spy number](https://github.com/letdummy/Simple-to-Advance/tree/master/47.%20Spy%20number)
+- [Project 48: Simon Game](https://github.com/letdummy/Simple-to-Advance/tree/master/48.%20Simon%20game)
+- [Project 49: Javascript Calender](https://github.com/letdummy/Simple-to-Advance/tree/master/49.%20Javascript%20Calender)
+- [Project 50: Sliding SignUp-SignIn Form ](https://github.com/letdummy/Simple-to-Advance/tree/master/50.%20Sliding%20SignUp-SignIn%20Form)
+- [Project 51: Yoda Translator App ](https://github.com/letdummy/Simple-to-Advance/tree/master/51.%20Yoda%20Translator%20App)
+- [Project 52: Flipkart Clone](https://github.com/letdummy/Simple-to-Advance/tree/master/52.%20FLIPKART%20CLONE)
+- [Project 53: Food Ordering Website Landing Page](https://github.com/letdummy/Simple-to-Advance/tree/master/53.%20Food%20Ordering%20Website%20Landing%20Page)
+- [Project 54: Scientific Calculator](https://github.com/letdummy/Simple-to-Advance/tree/master/54.%20Scientific%20Calculator)
+- [Project 55: Weather Web App](https://github.com/letdummy/Simple-to-Advance/tree/master/55.%20Weather%20Web%20App)
+- [Project 56: Simple To-Do Web App](https://github.com/letdummy/Simple-to-Advance/tree/master/56.%20Simple%20To-Do%20Web%20App)
+- [Project 57: Color Game](https://github.com/letdummy/Simple-to-Advance/tree/master/57.%20Color%20Game)
+- [Project 58: Book Finder API-Based](https://github.com/letdummy/Simple-to-Advance/tree/master/58.%20Book%20Finder%20API-Based)
+- [Project 59: Dad Joke](https://github.com/letdummy/Simple-to-Advance/tree/master/59.%20Dad%20Joke)
+- [Project 60: Random Meme Generator](https://github.com/letdummy/Simple-to-Advance/tree/master/60.%20Random%20Meme%20Generator)
 
   
   
