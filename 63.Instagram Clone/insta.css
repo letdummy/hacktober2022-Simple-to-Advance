@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+}
+.container {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  margin: 40px 280px;
+  align-items: center;
+}
+
+.iphone {
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  margin: 40px 50px;
+  position: relative;
+}
+.iphone::before {
+  content: "";
+  height: 95%;
+  width: 408px;
+  background: url(./img/insta1.png) no-repeat center center/cover;
+  position: absolute;
+  background-size: 57%;
+  top: -1%;
+  left: 1%;
+}
+
+.login {
+  justify-content: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: 0.5px solid rgb(161, 157, 157);
+  padding: 20px;
+}
+.box1 img {
+  height: 100%;
+  width: 80%;
+}
+.box1 input {
+  padding: 9px;
+  width: 250px;
+  font-size: 12px;
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(191, 188, 188);
+  border-radius: 3px;
+  outline: none;
+  height: 21px;
+  margin: 7px;
+  font-weight: 300;
+}
+
+.logo {
+  display: flex;
+  justify-content: top;
+  height: 80px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn3 {
+  margin: 5px 0px;
+  background-color: rgb(141, 202, 255);
+  width: 96%;
+  height: 30px;
+  font-weight: 600;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+.line1,
+.line2 {
+  width: 33%;
+  height: 1px;
+  margin: 0px 10px;
+  background-color: rgb(167, 163, 163);
+}
+.or {
+  margin: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: rgb(167, 163, 163);
+  font-size: 13px;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.facebook span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.fa-brands {
+  margin: 10px;
+}
+.forgot {
+  font-size: 12px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 7px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border: 0.5px solid rgb(161, 157, 157);
+  font-size: 14px;
+  width: 300px;
+}
+.signup {
+  margin: 0px 4px;
+  font-weight: 600;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.download {
+  text-align: center;
+  height: 100px;
+  margin: 20px;
+}
+.buttons img {
+  height: 35px;
+  margin: 10px;
+  cursor: pointer;
+}

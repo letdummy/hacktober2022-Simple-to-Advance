@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+  .iphone {
+    display: none;
+  }
+  body {
+    background: white;
+  }
+  .login,
+  .container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+  .box1,
+  .account {
+    border: none;
+  }
+}
+
