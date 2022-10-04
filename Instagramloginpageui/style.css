@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FAFAFA;
+}
+
+/*--------- LOGIN SECTION--------- */
+.login {
+  height: 380px;
+  width: 347px;
+  background-color: white;
+  border: 0.3px solid gainsboro;
+  margin: 3rem auto;
+}
+.login img {
+  height: 45px;
+  width: 170px;
+  margin: 2rem 5.5rem;
+}
+.login .box1 {
+  height: 38px;
+  width: 265px;
+  margin: 0rem 2.5rem;
+  padding: 1rem 1rem;
+  border-radius: 3px;
+  color: rgb(143, 140, 140);
+  background-color: #fafafa;
+  outline: 0px;
+  border: 0.3px solid gainsboro;
+}
+.login .box2 {
+  height: 38px;
+  width: 265px;
+  margin: 0.5rem 2.5rem;
+  padding: 1rem 1rem;
+  border-radius: 3px;
+  color: rgb(143, 140, 140);
+  background-color: #fafafa;
+  outline: 0px;
+  border: 0.3px solid gainsboro;
+}
+.login .btn {
+  height: 38px;
+  width: 265px;
+  margin: 0.7rem 2.5rem;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(var(--d69, 0, 149, 246), 0.3);
+  border: 0.3px solid gainsboro;
+}
+.login .btn:hover {
+  color: white;
+  background-color: rgb(0, 146, 236);
+  cursor: pointer;
+}
+
+/*------- PARTITION SECTION------- */
+.partition .left {
+  height: 1px;
+  width: 98px;
+  margin: 1rem 2.5rem;
+  background-color: rgb(202, 197, 197);
+}
+.partition .center {
+  margin: -1.4rem 10.2rem;
+  font-size: 13px;
+  color: rgb(58, 57, 57);
+}
+.partition .right {
+  height: 1px;
+  width: 95px;
+  margin: 0.7rem 12.5rem;
+  background-color: rgb(202, 197, 197);
+}
+/*------- BOTTOM SECTION -----*/
+.bottom img {
+  height: 25px;
+  width: 25px;
+  margin: 1.3rem 5.5rem;
+}
+.bottom a {
+  text-decoration: none;
+  color: #2c3e66;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1.45rem -5.2rem;
+}
+.bottom h4 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin: 3rem -2.7rem;
+  cursor: pointer;
+  font-weight: 200;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ---------------SIGN UP SECTION------------ */
+.sign-up {
+  height: 60px;
+  width: 350px;
+  background-color: white;
+  border: 0.3px solid gainsboro;
+  margin: -2rem auto;
+}
+.sign-up h3 {
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  margin: 1rem 4rem;
+  font-weight: 400;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.sign-up a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #0095f6;
+  font-weight: bolder;
+  margin: 1.1rem -3.5rem;
+  letter-spacing: 0.9px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*---------------- DOWNLOAD SECTION---------------- */
+.download h3 {
+  margin: 3.5rem 9rem;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.download img {
+  height: 41px;
+  width: 133px;
+  cursor: pointer;
+}
+.download .app-store {
+  margin: -2rem 0.5rem 0rem 3rem;
+}
+.download .play-store {
+  margin: -6rem 0.7rem 0rem 0rem;
+}
+/*------------------ FOOTER SECTION ------------------*/
+.footer .first-footer {
+  font-size: 13px;
+  margin: 2.7rem 2rem;
+  word-spacing: 12px;
+  color: gray;
+  font-family: "Noto Sans JP", sans-serif;
+  cursor: pointer;
+}
+.footer .second-footer .languages {
+  margin: -2rem 0rem 0rem 3rem;
+  font-size: 20px;
+}
+.footer .second-footer #option {
+  color: rgb(100, 94, 94);
+  color: gray;
+  height: 30px;
+  width: 155px;
+  font-size: 13px;
+  padding-left: 10px;
+  border: 0px;
+  outline: 0px;
+}
+.second-footer .copyright {
+  color: gray;
+  margin: -1.9rem 0rem 0rem 2rem;
+}
