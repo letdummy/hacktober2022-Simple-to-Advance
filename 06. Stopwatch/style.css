@@ -1,67 +1,38 @@
-body {
-    background: cornflowerblue;
-}
-h1{
-    text-align: center;
-    color: azure;
-    font-weight: 900;
+*{
+    margin:0;
+    padding:0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    padding: 0%;
+}
 
-   }
-.stopwatch{
-    text-align: center;
+h1{
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 1rem;
 }
-.time {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 8rem;
-    line-height: 48vh;
+div{
+    padding: 0 1rem ;
 }
-.button {
+#clock{
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+button{
+    padding: 10px ;
+    border: 0;
+    outline:0;
+
+}
+#list{
+    padding: 10px;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    margin-left: 450px;
-    margin-right: 450px;
+    flex-direction: column;
 }
-
-.button > button {
-   padding: 12px 40px;
-   background-color: rgb(46, 40, 40);
-   outline: none;
-   border-radius: 30px;
-   box-shadow: 0;
-   font-weight: 900;
-   font-size: 20px;
-   color: white;
-   outline: white;
-   border: 1px solid white;
-} 
-.stop > button {
-    background-color: red;
-}
-.button > button:hover {
-    background-color: orange;
-}
-@media only screen and (max-width: 768px) {
-    h1{
-        font-size: 1.7rem;
-        text-align: center;
-        padding: 0%;
-    }
-    .time {
-        font-size: 3rem;
-        line-height: 35vh;
-    }
-    .button {
-        display: flex;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    .button > button {
-        padding: 6px 16px;
-    }
-    
+#list li {
+    display: inline-block;
+    font-family: cursive;
+    margin-top: 10px;
+    font-weight: 500;
+    background-color: #ddd;
+    box-shadow:  0 0 5px rgba(0,0,0,0.3);
 }
