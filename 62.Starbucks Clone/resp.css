@@ -1,0 +1,66 @@
+/* Responsiveness: Mobile */
+
+@media (max-width: 769px) {
+  .navbar {
+    flex-direction: column;
+    padding: 25px 10px;
+  }
+  .right-nav {
+    display: flex;
+    position: inherit;
+    width: 100%;
+    flex-direction: column;
+  }
+  .right-nav div {
+    margin: auto;
+  }
+  .leftnav {
+    width: 100%;
+    gap: 0;
+    justify-content: initial;
+  }
+  .leftnav ul {
+    gap: 1rem;
+  }
+  .leftnav ul li a {
+    margin: 0;
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    flex-direction: column;
+  }
+  .rewards,
+  .summers,
+  .coldbrew,
+  .back2school,
+  .casicielo,
+  #box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    width: 100%;
+  }
+  #box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    padding: 20px;
+  }
+  .box2 span,
+  .box3 span,
+  .box4 span,
+  .box5 span {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+}
