@@ -1,0 +1,51 @@
+.centre {
+  left: 50%;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0;
+  transform: translateY(-20rem);
+}
+
+p {
+  font-size: 7rem;
+  word-spacing: 1rem;
+  transform: translateY(6rem);
+  color: #ead7d7;
+}
+
+.todoInputText {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+}
+
+input:placeholder-shown {
+  font-style: italic;
+}
+
+input:focus {
+  outline: none;
+}
+
+.todoToggleButton {
+  position: absolute;
+  left: 31%;
+  /* transform: translateX(19rem); */
+  margin-top: 1.3rem;
+  color: #ccc;
+  /* transform: translateY(1rem); */
+}
+
+i:active {
+  color: #000;
+}

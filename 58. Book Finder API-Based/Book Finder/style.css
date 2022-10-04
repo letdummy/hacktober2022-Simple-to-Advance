@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    margin: auto auto;
+}
+
+.header {
+    background-image: url("https://images5.alphacoders.com/957/957103.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading {
+    font-size: 6em;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+    max-width: fit-content;
+    text-shadow: 13px 3px 3px #000000;
+    text-align: center;
+    margin: auto auto;
+}
+
+.header p {
+    color: white;
+    font-size: 1.3em;
+    position: relative;
+    top: 30%;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.header .button {
+    position: relative;
+    top: 35%;
+    margin: 0 auto;
+    font-size: xx-large;
+    border: dashed 2px white;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    cursor: grab;
+    border-radius: 5px;
+    transition: ease-in-out 1s;
+}
+
+.header .button:hover {
+    background-color: rgba(239, 9, 159, 0.5);
+    color: white;
+}
+
+#search {
+    margin: 15px auto;
+    width: 90%;
+    font-family: 'Comfortaa', cursive;
+}
+
+#input {
+    border: none;
+}
+
+.row {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.3s;
+    background: #efefef;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    transition: ease-in 1s;
+}
+
+.box h2 {
+    margin: 1.5rem 0 0.2rem 0;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+}
+
+.box h6 {
+    margin: 0 0 0.5rem 0;
+}
+
+.box img {
+    margin: 1rem auto;
+    width: 25%
+}
+
+.box p {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.box .button {
+    margin: 1rem 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.box .button:hover {
+    background-color: black;
+    color: #efefef;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: grab;
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+    box-shadow: 14px 14px 8px 0 rgba(0, 0, 0);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .heading {
+        font-size: 5em;
+    }
+
+    .header p {
+        font-size: 1.5em;
+        max-width: 80%;
+    }
+
+    .header .button {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .box {
+        width: 48%;
+        padding: 0 1.5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .box {
+        padding: 0 1rem;
+    }
+
+    .heading {
+        font-size: 3em;
+    }
+
+    .header p {
+        font-size: 1em;
+        max-width: 90%;
+    }
+
+    .header .button {
+        font-size: x-large;
+    }
+    .box h2 {
+        font-size: x-large;
+        margin: 1rem 0 0.2rem 0;
+        font-weight:800;
+    }
+
+    .box h6 {
+        font-size: medium;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .box img {
+        margin: 1rem auto;
+        width: 25%
+    }
+
+    .box p {
+        width: 100%;
+        font-size: small;
+    }
+
+    .box .button {
+        margin: 0.2rem 0 0.5rem 0;
+        font-size: medium;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .heading {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 0.9em;
+        max-width: 100%;
+    }
+
+    .header .button {
+        font-size: large;
+    }
+
+    .box {
+        width: 90%;
+        padding: 0 1.5rem;
+    }
+}
