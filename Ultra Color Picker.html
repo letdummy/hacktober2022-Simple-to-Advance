@@ -1,0 +1,31 @@
+<h3>ULTRA COLOR PICKER</h3>
+
+<h4> Please touch the screen after entering valid colors name or hex value</h4>
+
+<input type="text" id="t1" placeholder="#ffffff or colors name" onblur="colors()"/>
+
+<h3> Select color to know hex value</h3>
+
+<input type= "color" id= "hex" onblur="myhexvalue()"/>
+
+<script>
+
+function colors(){
+
+var col=document.getElementById('t1');
+
+document.body.bgColor= col.value;
+
+}
+
+function myhexvalue(){
+
+    
+
+    var v= document.getElementById('hex');
+
+    document.write(v.value);
+
+}
+
+</script>
