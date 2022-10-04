@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+    box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 0px 4px 5px 0px rgb(191 122 122 / 71%);
+}
+.logo {
+  width: 50px;
+  margin: 0px 20px;
+}
+.logo img {
+  height: 50px;
+}
+
+/* Left Side */
+.leftnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftnav ul {
+  display: flex;
+  list-style: none;
+}
+
+.leftnav ul li a {
+  font-weight: 600;
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+.leftnav ul li a:hover {
+  color: green;
+}
+
+/* Right Nav */
+.right-nav {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  right: 5%;
+}
+.right-nav div {
+  margin: 0px 20px;
+}
+#map:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.right-nav button {
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 5px 20px;
+  margin: 10px;
+  font-weight: 500;
+}
+.right-nav button:hover {
+  background: rgb(225, 218, 218);
+}
+#join {
+  background: black;
+  color: white;
+}
+#join:hover {
+  background: rgb(47, 46, 46);
+}
+
+/* Rewards Section */
+.container1 {
+  display: flex;
+  margin: 40px 0px;
+}
+.container1 img {
+  width: 100%;
+  height: 100%;
+}
+.rewards {
+  width: 50%;
+}
+#box1 {
+  width: 50%;
+  background: rgb(5, 37, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+#box1 span {
+  font-size: 20px;
+}
+
+#btn1 {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 24px;
+  background: transparent;
+  margin-top: 30px;
+  color: white;
+}
+
+/* Summers Section */
+.container2 {
+  display: flex;
+}
+.box2 {
+  width: 50%;
+  background: rgb(237, 138, 155);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box2 p {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+.box2 span {
+  font-size: 48px;
+}
+#btn2 {
+  padding: 5px 20px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 40px;
+  font-size: 16px;
+}
+.summers {
+  width: 50%;
+}
+.summers img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Cold Brew Section */
+
+.container3 {
+  display: flex;
+  margin: 40px 0;
+}
+.coldbrew {
+  width: 50%;
+}
+.coldbrew img {
+  height: 100%;
+  width: 100%;
+}
+.box3 {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f06464;
+  color: white;
+}
+.box3 span {
+  font-size: 48px;
+}
+.box3 p {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+#btn3 {
+  padding: 5px 20px;
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(255, 250, 250);
+  border-radius: 40px;
+  font-size: 16px;
+}
+/* 
+Back-2-School Section */
+
+.container4 {
+  display: flex;
+}
+.box4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #faaa5a;
+}
+.box4 span {
+  font-size: 48px;
+}
+.box4 p {
+  padding: 40px;
+  text-align: center;
+}
+#btn4 {
+  padding: 5px 20px;
+  background: transparent;
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  font-size: 16px;
+}
+.back2school {
+  width: 50%;
+}
+.back2school img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Casicielo Section */
+
+.container5 {
+  display: flex;
+  margin: 40px 0;
+}
+.casicielo {
+  width: 50%;
+}
+
+.casicielo img {
+  height: 100%;
+  width: 100%;
+}
+
+.box5 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #006241;
+  color: white;
+}
+
+.box5 span {
+  font-size: 48px;
+}
+.box5 p {
+  text-align: center;
+  font-size: 18px;
+  padding: 40px;
+}
+#btn5 {
+  padding: 5px 20px;
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(255, 253, 253);
+  border-radius: 40px;
+  font-size: 16px;
+}
+/* Footer Section */
+
+footer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+}
+
+footer div {
+  margin: 30px;
+}
