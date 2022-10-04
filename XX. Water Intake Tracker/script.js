@@ -3,6 +3,8 @@ const liters = document.getElementById("liters");
 const remained = document.getElementById("remained");
 const done = document.getElementById("done");
 
+const filled = localStorage.getItem("filled");
+
 smCup.forEach((cup, i) => {
     cup.addEventListener("click", () => fillCup(i));
 });
@@ -29,6 +31,8 @@ function fillCup(i) {
 
 function updateProgress() {
     const fullCups = document.querySelectorAll(".cup-small.full").length;
+    localStorage.setItem("filled", fullCups);
+
     const totalCups = smCup.length;
     if (fullCups == 0) {
         percent.style.visibility = "hidden";
@@ -67,3 +71,8 @@ function celebrate() {
         disableForReducedMotion: true,
     });
 }
+
+for (var i = 0; i < filled; i++) {
+    smCup[i].classList.add("full");
+}
+updateProgress();
