@@ -1,0 +1,101 @@
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+} 
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap : 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+ 
+.display-none {
+    display: none;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-sticky {
+    position: sticky;
+}
+
+.font-weight-6 {
+    font-weight: 600;
+}
+
+.font-weight-5 {
+    font-weight: 500;
+}
+
+.font-weight-4 {
+    font-weight: 400;
+}
+
+.font-weighta-3 {
+    font-weight: 300;
+}
+
+.btn-border-none {
+    border: none;
+    outline: none;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.docs-grid-template {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "aside main main main";
+    grid-template-rows: 5rem 1fr;
+    grid-template-columns: 15rem 1fr;
+}
+
+.component-display-box {
+    border: 1px solid var(--light-gray-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.carbon-iframe {
+    width: 100%; 
+    height: 100%;
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.code-section {
+    width: 100%;
+    height: 16rem;
+    margin: 1rem auto;
+}

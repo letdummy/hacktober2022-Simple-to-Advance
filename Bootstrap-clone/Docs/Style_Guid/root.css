@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+:root {
+    --primary-color: rgb(7, 172, 248);
+    --secondary-color: rgb(32, 30, 30);
+    --normal-text-color: rgb(80, 76, 76);
+    --dark-gray-color: rgb(49, 48, 48);
+    --hover-background-color: rgba(44, 167, 224, 0.315);
+    --light-gray-color: rgb(161, 148, 148);
+    --dark-red-color: #dc3545;
+    --light-red-color: #fcc5c5;
+    --primary-dark-color: #29438b;
+    --lighter-primary-color: #7FD2E6;
+    --lighter-secondary-color: #eaeaec;
+    --dark-green-color: #1b7052;
+    --lighter-green-color: #84f1c9;
+    --darker-yellow-color: #ff9204;
+    --lighter-yellow-color: #ffe7c5;
+    --white-color: #fff;
+    --red-color: rgb(231, 33, 52);
+    --light-primary-color: rgb(17, 153, 216);
+    --light-secondary-color: rgb(126, 119, 119);
+    --green-color: #28a745;
+    --yellow-color: #ffc107;
+    --dark-yellow-color: #e6ad05;
+    --gray-color: rgb(61, 58, 58);
+    --darker-gray-color: rgb(27, 26, 26);
+    --light-green-color: #208638;
+    --lightest-gray-color: rgba(224,224,224,0.5);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1, p {
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 540px) {
+    html {
+        font-size: 80%;
+    }
+}

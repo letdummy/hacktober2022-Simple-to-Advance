@@ -1,0 +1,36 @@
+@import url(./lib/components.css);
+
+
+.home-main {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home-title {
+    font-size: 4rem;
+    text-shadow: 5px 5px 4px var(--light-gray-color);
+}
+
+.sub-main-box {
+    text-align: center;
+    width: 30rem;
+}
+.home-quote {
+    width: 100%;
+}
+
+.home-cta-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home-cta-btn {
+    font-size: 1.2rem;
+    width: 11rem;
+    border-radius: 40px;
+}

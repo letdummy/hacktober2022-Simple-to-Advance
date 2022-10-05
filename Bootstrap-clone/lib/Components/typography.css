@@ -1,0 +1,43 @@
+.xlg-heading {
+    font-size: 4rem;
+}
+
+.lg-heading {
+    font-size: 3.5rem;
+}
+
+.md-heading {
+    font-size: 3rem;
+}
+
+.xmd-heading {
+    font-size: 2.5rem;
+}
+
+.sm-heading {
+    font-size: 2rem;
+}
+
+.xsm-heading {
+    font-size: 1.5rem;
+}
+
+.text-sm-size {
+    font-size: 1.1rem;
+}
+
+.gray-text {
+    color: var(--light-gray-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-striked {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}

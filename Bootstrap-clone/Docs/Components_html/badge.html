@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../index.css">
+    <title>Badge</title>
+</head>
+<body>
+    <div class="docs-grid-template">
+        <nav class="navbar flex-row align-center position-fixed font-weight-5">
+            <button id="hamburger-btn" class="hamburger display-none btn-border-none bg-transparent">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="title font-weight-4"><a href="../../index.html">nakshatra <span class="sub-title">UI</span></a></div>
+            <div class="nav-items-box flex-row align-center justify-evenly">
+                <a href="../../index.html" class="nav-items">Home</a>
+                <a href="./usages.html" class="nav-items">Docs</a>
+            </div>
+        </nav>
+
+        <aside id="aside-drawer" class="sidebar flex-column position-fixed font-weight-5">
+            <div class="aside-nav-items display-none">
+                <button id="drawer-close-icon" class="close-drawer-btn btn-border-none bg-transparent">
+                    <i class="fas fa-times"></i>
+                </button>
+                <a class="sidebar-lable nav-items" href="../../index.html">Home</a>
+                <a class="sidebar-lable nav-items" href="./usages.html">Docs</a>
+            </div>
+            <div class="sidebar-lable font-weight-6">Getting Started</div>
+            <div class="sidebar-items">
+                <a href="./usages.html">Usage</a>
+            </div>
+            <div class="sidebar-items">
+                <a href="./typography.html">Typography</a>
+            </div>
+
+            <div class="sidebar-lable font-weight-6">Components</div>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./buttons.html">Button</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./cards.html">Card</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./form.html">Form</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./grids.html">Grid</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./inputs.html">Input</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./lists.html">List</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./navigation.html">Navigation</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./ratings.html">Ratings</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./toast.html">Toast</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section flex-column">
+            <section>
+                <h1 class="headings main-heading font-weight-4">Badges</h1>
+                <p class="heading-about font-weight-3"> 
+                    Badges are being used to display a notification count or status information
+                </p>
+            </section>
+            <section class="component-section flex-column">
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Status Badges</h2>
+                    <p class="component-info">
+                        Status badges are available in 4 type. Use classes <span class="component-type">status-online-badge</span>, <span class="component-type">status-offline-badge</span>, <span class="component-type">status-dnd-badge</span> and <span class="component-type">status-idle-badge</span> according to user's satus.
+                    </p>
+                </div>
+
+                <div class="component-display-box flex-row align-center gap-1 font-weight-5">
+                    <div class="badge-container">
+                        <div class="avatar avatar-lg-size">
+                            <img class="img-responsive img-round" src="../assets/images/profile-pic.png" alt="Avatar image" />
+                            <span class="badge badge-lg status-online-badge"></span>
+                        </div>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-md-size">
+                            <img class="img-responsive img-round" src="../assets/images/profile-pic.png" alt="Avatar image" />
+                            <span class="badge badge-md status-offline-badge"></span>
+                        </div>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-sm-size">
+                            <img class="img-responsive img-round" src="../assets/images/profile-pic.png" alt="Avatar image" />
+                            <span class="badge badge-sm status-dnd-badge"></span>
+                        </div>
+                    </div>
+                    <div class="badge-container">
+                        <div class="avatar avatar-xsm-size">
+                            <img class="img-responsive img-round" src="../assets/images/profile-pic.png" alt="Avatar image" />
+                            <span class="badge badge-xsm status-idle-badge"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/3jaeDtiYPVxqRXsYaKHh" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Badges on Icon</h2>
+                    <p class="component-info">
+                        Badges on Icon are available in 2 type. You can copy html part from below code snippet.
+                    </p>
+                </div>
+
+                <div class="component-display-box flex-row align-center gap-2 font-weight-5">
+                    <div class="badge-container">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge number-lg-badge">99+</span>
+                    </div>
+                    <div class="badge-container">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge number-sm-badge">99+</span>
+                    </div>
+                    <div class="badge-container">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge plain-badge"></span>
+                    </div>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/r8mSm5yH46Lrv7suAg5X" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Text Badges</h2>
+                    <p class="component-info">
+                        Text badge are available in 2 type. You can copy html part from below code snippet.
+                    </p>
+                </div>
+
+                <div class="component-display-box flex-row align-center gap-1 font-weight-5">
+                    <span class="text-badge badge-square">New</span>
+                    <span class="text-badge badge-pills">New</span>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/iWHRO9DzAtAq8yW0OWGC" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/docs.js"></script>
+</body>
+</html>

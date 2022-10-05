@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../index.css">
+    <title>Cards</title>
+</head>
+<body>
+    <div class="docs-grid-template">
+        <nav class="navbar flex-row align-center position-fixed font-weight-5">
+            <button id="hamburger-btn" class="hamburger display-none btn-border-none bg-transparent">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="title font-weight-4"><a href="../../index.html">nakshatra <span class="sub-title">UI</span></a></div>
+            <div class="nav-items-box flex-row align-center justify-evenly">
+                <a href="../../index.html" class="nav-items">Home</a>
+                <a href="./usages.html" class="nav-items">Docs</a>
+            </div>
+        </nav>
+
+        <aside id="aside-drawer" class="sidebar flex-column position-fixed font-weight-5">
+            <div class="aside-nav-items display-none">
+                <button id="drawer-close-icon" class="close-drawer-btn btn-border-none bg-transparent">
+                    <i class="fas fa-times"></i>
+                </button>
+                <a class="sidebar-lable nav-items" href="../../index.html">Home</a>
+                <a class="sidebar-lable nav-items" href="./usages.html">Docs</a>
+            </div>
+            <div class="sidebar-lable font-weight-6">Getting Started</div>
+            <div class="sidebar-items">
+                <a href="./usages.html">Usage</a>
+            </div>
+            <div class="sidebar-items">
+                <a href="./typography.html">Typography</a>
+            </div>
+
+            <div class="sidebar-lable font-weight-6">Components</div>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./buttons.html">Button</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./cards.html">Card</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./form.html">Form</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./grids.html">Grid</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./inputs.html">Input</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./lists.html">List</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./navigation.html">Navigation</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./ratings.html">Ratings</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./toast.html">Toast</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section flex-column">
+            <section>
+                <h1 class="headings main-heading font-weight-4">Cards</h1>
+                <p class="heading-about font-weight-3"> 
+                    Card are used to show user related data collectively, like product details.
+                </p>
+            </section>
+            <section class="component-section flex-column">
+                <div>
+                    <h2 class="heading sub-heading font-weight-4">
+                        Example of Horizontal Card- Text+Image
+                    </h2>
+                    <p class="component-info">
+                        Card's image may have a padding or it can be full-bleed. By default card's images are full-bleed. If you want image to have margin, you can use <span class="component-type">card</span> class.
+                        Copy below code and put your desired text and image and you are good to go.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5 flex-column gap-2">
+                    <div class="card hr-card"> 
+                        <div class="img-hr-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                        </div>
+                        <div class="text-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <small class="gray-text">Sold by: Zodiac</small>
+                            </div>
+                            <div class="card-desc">
+                                <p>
+                                    Pink shirts with full sleeves, has a shirt collar, perfect for office buddys
+                                </p>
+                            </div>
+                            <div class="card-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="card card-full-img hr-card">
+                        <div class="img-hr-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                        </div>
+                        <div class="text-container text-p-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <small class="gray-text">Sold by: Zodiac</small>
+                            </div>
+                            <div class="card-desc">
+                                <p>
+                                    Pink shirts with full sleeves, has a shirt collar, perfect for office buddys
+                                </p>
+                            </div>
+                            <div class="card-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/mA5km6rPXCvOEHWIn5wX" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/xTOSrSt9TaFi4QZTG5Ic" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+                <div>
+                    <h2 class="heading sub-heading font-weight-4">
+                        Example of Vertical Card- Text+Image
+                    </h2>
+                    <p class="component-info">
+                        Below are 3 variations, card with badge, card with image default-container, card with close button. All the cards have like button.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5 flex-row justify-center align-center gap-2">
+                    <div class="card card-vl-full-img vl-card">
+                        <div class="img-vl-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                        </div>
+                        <div class="text-container text-vl-container text-vl-p-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <button class="card-btn-transparent card-like-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                            <div class="card-desc">
+                                <span class="xsm-heading">Rs. 599 </span><span class="text-striked">Rs. 999</span>
+                            </div>
+                            <div class="card-vl-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card vl-card"> 
+                        <div class="img-vl-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                        </div>
+                        <div class="text-container text-vl-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <button class="card-btn-transparent card-like-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                            <div class="card-desc">
+                                <span class="xsm-heading">Rs. 599 </span><span class="text-striked">Rs. 999</span>
+                            </div>
+                            <div class="card-vl-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-vl-full-img vl-card">
+                        <div class="img-vl-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                            <button class="card-close-btn card-btn-transparent">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="text-container text-vl-container text-vl-p-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <button class="card-btn-transparent card-like-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                            <div class="card-desc">
+                                <span class="xsm-heading">Rs. 599 </span><span class="text-striked">Rs. 999</span>
+                            </div>
+                            <div class="card-vl-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/9LSTmEHbQJij9V4w2Juo" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/cyvjgQSp9QrYlWnf5OWQ" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/5shmyngH9KSjQcgCDZlX" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+                <div class="component-display-box font-weight-5">
+                    <div class="card card-vl-full-img vl-card overlay-box">
+                        <div class="img-vl-container badge-container">
+                            <img class="img-responsive" src="../assets/images/men-model.png" alt="Men shirt">
+                            <span class="text-badge badge-pills card-badge">New</span>
+                            <button class="card-close-btn card-btn-transparent">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="text-container text-vl-container text-vl-p-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                                <button class="card-btn-transparent card-like-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                            <div class="card-desc">
+                                <span class="xsm-heading">Rs. 599 </span><span class="text-striked">Rs. 999</span>
+                            </div>
+                            <div class="card-vl-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>                            
+                        </div>
+                        <div class="card-overlay-div"><span class="overlay-text-box">Out of Stock</span></div>
+                    </div>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/j0OMAFBorXL0oCqKpDS1" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div class="component-display-box font-weight-5">
+                    <div class="card card-vl-text">
+                        <div class="text-container text-vl-container">
+                            <div class="card-title">
+                                <h5 class="xsm-heading">Light Pink Shirts</h5>
+                                <p class="card-subtitle">Men's casual shirts</p>
+                            </div>
+                            <div class="card-desc">
+                                <p>
+                                    Pink shirts with full sleeves, has a shirt collar, perfect for office buddys
+                                </p>
+                            </div>
+                            <div class="card-cta-section">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add To Cart
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    Move To Wishlist
+                                </button>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/VsEqYC7D7UDjnp4ivZCo" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/docs.js"></script>
+</body>
+</html>

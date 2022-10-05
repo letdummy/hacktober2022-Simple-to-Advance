@@ -1,0 +1,39 @@
+.main-section {
+    grid-area: main;
+    padding: 2rem 4rem;
+    gap: 2rem;
+}
+.heading {
+    color: var(--secondary-color);
+}
+
+.main-heading {
+    font-size: 3rem;
+}
+
+.heading-about {
+    font-size: 1.5rem;
+}
+
+.sub-heading {
+    font-size: 2rem;
+}
+ 
+.component-section {
+    gap: inherit;
+}
+
+.component-info {
+    font-size: 1.2rem;
+    color: var(--normal-text-color);
+}
+
+.component-type {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 540px) {
+    .main-section {
+        padding: 2rem;
+    }
+}
