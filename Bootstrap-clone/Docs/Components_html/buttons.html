@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../index.css">
+    <title>Buttons</title>
+</head>
+<body>
+    <div class="docs-grid-template">
+        <nav class="navbar flex-row align-center position-fixed font-weight-5">
+            <button id="hamburger-btn" class="hamburger display-none btn-border-none bg-transparent">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="title font-weight-4"><a href="../../index.html">nakshatra <span class="sub-title">UI</span></a></div>
+            <div class="nav-items-box flex-row align-center justify-evenly">
+                <a href="../../index.html" class="nav-items">Home</a>
+                <a href="./usages.html" class="nav-items">Docs</a>
+            </div>
+        </nav>
+
+        <aside id="aside-drawer" class="sidebar flex-column position-fixed font-weight-5">
+            <div class="aside-nav-items display-none">
+                <button id="drawer-close-icon" class="close-drawer-btn btn-border-none bg-transparent">
+                    <i class="fas fa-times"></i>
+                </button>
+                <a class="sidebar-lable nav-items" href="../../index.html">Home</a>
+                <a class="sidebar-lable nav-items" href="./usages.html">Docs</a>
+            </div>
+            <div class="sidebar-lable font-weight-6">Getting Started</div>
+            <div class="sidebar-items">
+                <a href="./usages.html">Usage</a>
+            </div>
+            <div class="sidebar-items">
+                <a href="./typography.html">Typography</a>
+            </div>
+
+            <div class="sidebar-lable font-weight-6">Components</div>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./buttons.html">Button</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./cards.html">Card</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./form.html">Form</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./grids.html">Grid</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./inputs.html">Input</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./lists.html">List</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./navigation.html">Navigation</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./ratings.html">Ratings</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./toast.html">Toast</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section flex-column">
+            <section>
+                <h1 class="headings main-heading font-weight-4">Buttons</h1>
+                <p class="heading-about font-weight-3"> 
+                    Buttons are also called as call to action. We have range of buttons and their states. You may use a tag or button element, you need to add respective classes, and you are good to go.
+                </p>
+            </section>
+            <section class="component-section flex-column">
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Solid Buttons</h2>
+                    <p class="component-info">
+                        The solid button component you can use classes <span class="component-type">btn-primary</span>, <span class="component-type">btn-secondary</span>,  <span class="component-type">btn-danger</span>, <span class="component-type">btn-success</span>, <span class="component-type">btn-warning</span>, <span class="component-type">btn-dark</span> and <span class="component-type">btn-link</span>.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-dark">Dark</button>
+                    <button class="btn btn-link">Link</button>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/J601SCtPl7Yl1Edq03fB" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Outline Buttons</h2>
+                    <p class="component-info">
+                        The outline button component you can use classes <span class="component-type">btn-primary</span>, <span class="component-type">btn-secondary</span>,  <span class="component-type">btn-danger</span>, <span class="component-type">btn-success</span>, <span class="component-type">btn-warning</span> and <span class="component-type">btn-dark</span>.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-danger">Danger</button>
+                    <button class="btn btn-outline-success">Success</button>
+                    <button class="btn btn-outline-warning">Warning</button>
+                    <button class="btn btn-outline-dark">Dark</button>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/TCaczPRFlBVSR7n0mR3I"  sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Buttons with Icons</h2>
+                    <p class="component-info">
+                        Add the <span class="component-type">icons</span> class to span in icon you are adding.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5">
+                    <button class="btn btn-primary">
+                        <span class="icons">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        Add to cart
+                    </button>
+                    <button class="btn btn-danger">
+                        <span class="icons">
+                            <i class="fas fa-trash-alt"></i>
+                        </span>
+                        Delete
+                    </button>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/oDcJqsyF4obXw9DlQNWn" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Floating Buttons</h2>
+                    <p class="component-info">
+                        Floating buttons are available in two types <span class="component-type">btn-float-large</span> and <span class="component-type">btn-float-small</span>
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5">
+                    <button class="btn btn-float-large btn-primary">
+                        <i class="fas fa-plus btn-float-icon"></i>
+                    </button>
+                    <button class="btn btn-float-small btn-primary">
+                        <i class="fas fa-plus btn-float-icon"></i>
+                    </button> 
+                </div>
+                
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/NXUsYyZz2APWV3oMGSWb" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/docs.js"></script>
+</body>
+</html>

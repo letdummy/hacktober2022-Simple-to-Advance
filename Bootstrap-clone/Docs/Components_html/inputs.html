@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../index.css">
+    <title>Inputs</title>
+</head>
+<body>
+    <div class="docs-grid-template">
+        <nav class="navbar flex-row align-center position-fixed font-weight-5">
+            <button id="hamburger-btn" class="hamburger display-none btn-border-none bg-transparent">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="title font-weight-4"><a href="../../index.html">nakshatra <span class="sub-title">UI</span></a></div>
+            <div class="nav-items-box flex-row align-center justify-evenly">
+                <a href="../../index.html" class="nav-items">Home</a>
+                <a href="./usages.html" class="nav-items">Docs</a>
+            </div>
+        </nav>
+
+        <aside id="aside-drawer" class="sidebar flex-column position-fixed font-weight-5">
+            <div class="aside-nav-items display-none">
+                <button id="drawer-close-icon" class="close-drawer-btn btn-border-none bg-transparent">
+                    <i class="fas fa-times"></i>
+                </button>
+                <a class="sidebar-lable nav-items" href="../../index.html">Home</a>
+                <a class="sidebar-lable nav-items" href="./usages.html">Docs</a>
+            </div>
+            <div class="sidebar-lable font-weight-6">Getting Started</div>
+            <div class="sidebar-items">
+                <a href="./usages.html">Usage</a>
+            </div>
+            <div class="sidebar-items">
+                <a href="./typography.html">Typography</a>
+            </div>
+
+            <div class="sidebar-lable font-weight-6">Components</div>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./buttons.html">Button</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./cards.html">Card</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./form.html">Form</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./grids.html">Grid</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./inputs.html">Input</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./lists.html">List</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./navigation.html">Navigation</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./ratings.html">Ratings</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="./toast.html">Toast</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section flex-column">
+            <section>
+                <h1 class="headings main-heading font-weight-4">Inputs</h1>
+                <p class="heading-about font-weight-3"> 
+                    Inputs are used for taking some important information from the user so that we can use that information for user benefit.
+                </p>
+            </section>
+            <section class="component-section flex-column">
+                <div>
+                    <h2 class="heading sub-heading font-weight-4">Example of Standard Input </h2>
+                    <p class="component-info">
+                        For using inputs you can use the following html, and the placeholder would go up when you type something.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5 flex-column align-center">
+                    <div class="input-box">
+                        <label class="std-input-label" for="input-std">Standard Input:</label>
+                        <input class="input std-input" id="input-std" type="text" name="input-std" placeholder="Standard Input"/>
+                    </div>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/22bHdUnBEzasHRhsh7WV" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4">Example of Inputs with Validation</h2>
+                    <p class="component-info">
+                        We have three types of validation input boxes- <span class="component-type">error</span>, <span class="component-type">success</span>, <span class="component-type">warn</span>.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5 flex-column align-center gap-2">
+                    <div class="input-box">
+                        <label class="err-input-label" for="input-err">Error Input:</label>
+                        <input class="input err-input" id="input-err" type="text" name="input-err" placeholder="Error Input"/>
+                    </div>
+                    <div class="input-box">
+                        <label class="success-input-label" for="input-success">Success Input:</label>
+                        <input class="input success-input" id="input-success" type="text" name="input-success" placeholder="Success Input"/>
+                    </div>
+                    <div class="input-box">
+                        <label class="warn-input-label" for="input-warn">Warning Input:</label>
+                        <input class="input warn-input" id="input-warn" type="text" name="input-warn" placeholder="Warning Input"/>
+                    </div>
+                </div>
+
+                <code class="code-section">
+                    <iframe class="carbon-iframe" src="https://carbon.now.sh/embed/YeVP5hb2rwovSVoP9S1e" sandbox="allow-scripts allow-same-origin"></iframe>
+                </code>
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/docs.js"></script>
+</body>
+</html>

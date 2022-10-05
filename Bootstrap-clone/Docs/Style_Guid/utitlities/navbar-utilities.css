@@ -1,0 +1,28 @@
+.navbar {
+    grid-area: navbar;
+    width: 100%;
+    box-shadow: 3px 3px 4px var(--light-gray-color);
+    padding: 10px 20px;
+    top: 0;
+    background: var(--white-color);
+    font-size: 1.3rem;
+    z-index: 99999; 
+}
+
+.title {
+    font-size: 2rem;
+    text-shadow: 3px 3px 4px var(--light-gray-color);
+}
+
+.sub-title {
+    color: var(--primary-color);
+}
+
+.nav-items-box {
+    color: var(--secondary-color);
+    width: 12rem;
+}
+
+.nav-items:hover {
+    color: var(--primary-color);
+}

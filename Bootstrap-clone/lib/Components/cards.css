@@ -1,0 +1,142 @@
+.card  {
+    max-width: 50rem;
+    width: 100%;
+    display: grid;
+    height: max-content;
+    background: var(--white-color);
+    box-shadow: 0 0 4px 2px var(--light-gray-color);
+    padding: 14px 20px;
+    border-radius: 4px;
+    gap: 1rem;
+    color: var(--secondary-color);
+    line-height: 1;
+}
+
+.hr-card {
+    grid-template-columns: 1fr 4fr;
+}
+
+.img-hr-container {
+    width: 9rem;
+}
+
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-title {
+    position: relative;
+}
+
+.card-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card-desc {
+    font-size: 1.1rem;
+    color: var(--normal-text-color);
+    overflow-wrap: break-word;
+}
+
+.card-cta-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-full-img {
+    padding: 0 0 30px 0;
+} 
+
+.text-p-container {
+    padding: 20px 0 0 0;
+}
+
+.vl-card {
+    max-width: 20rem;
+    width: 100%;
+    grid-auto-rows: 1fr 0.5fr;
+}
+
+.card-vl-full-img {
+    padding: 0;
+}
+
+.text-vl-container {
+    justify-content: flex-start;
+}
+
+.text-vl-p-container {
+    padding: 0 20px 20px;
+}
+
+.img-vl-container {
+    width: 100%;
+    height: 100%;
+}
+
+.card-vl-cta-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-like-btn {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: var(--gray-color);
+}
+
+.card-btn-transparent {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.card-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: var(--dark-gray-color);
+}
+
+.overlay-box {
+    position: relative;
+}
+
+.card-overlay-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(224,224,224,0.5);
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    border-radius: 4px;
+} 
+
+.overlay-text-box {
+    font-size: 2rem;
+    color: var(--gray-color);
+    padding: 10px 1rem;
+    border-radius: inherit;
+}
+
+.card-vl-text {
+    max-width: 30rem;
+    padding: 20px;
+}
