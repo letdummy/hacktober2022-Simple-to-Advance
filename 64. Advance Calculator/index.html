@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="TopSection">
+        <p></p>
+    </div>
+    <div id="MainSection">
+        <div>
+            <p class="h1a">History</p>
+        <ul id="history">
+        </ul>
+        </div>
+        <div class="calculator" id="calc" value="light">
+        
+        
+            <input class="input" type="text">
+        
+        <table>
+        <tr>
+        <td><button class="button">C</button></td>
+        <td><button class="button">DEL</button></td>
+        <td><button class="button" id="inv">INV</button></td>
+        <td><button class="button" id="angle">RAD</button></td>
+        <td><button class="button">.</button></td>
+        </tr>
+        <tr>
+            <td><button class="button">1</button></td>
+            <td><button class="button">2</button></td>
+            <td><button class="button">3</button></td>
+            <td><button class="button">+</button></td>
+            <td><button class="button">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="button">4</button></td>
+            <td><button class="button">5</button></td>
+            <td><button class="button">6</button></td>
+            <td><button class="button">/</button></td>
+            <td><button class="button">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="button">7</button></td>
+                <td><button class="button">8</button></td>
+                <td><button class="button">9</button></td>
+                <td><button class="button">0</button></td>
+                <td><button class="button">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="button" id="sin">sin</button></td>
+                <td><button class="button" id="cos">cos</button></td>
+                <td><button class="button" id="tan">tan</button></td>
+                <td><button class="button">log</button></td>
+                <td><button class="button">ln</button></td>
+            </tr>
+        </table>
+        </div>
+        <div>
+            <button onclick="toggle()" class="switch">Switch Theme</button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
