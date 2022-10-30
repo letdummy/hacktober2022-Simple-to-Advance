@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+}
+.loader{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  animation: rotate 5s  infinite;
+}
+.ball{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.upper{
+  left: 0;
+  top: -22px;
+  background: #2da2ff;
+  animation: upper 1s linear infinite;
+}
+@keyframes upper {
+  50%{
+    top: 22px;
+  }
+  100%{
+    top: 22px;
+  }
+}
+.right{
+  right: -22px;
+  top: 0;
+  background: #ff337a;
+  animation: right 1s linear infinite;
+}
+@keyframes right {
+  50%{
+    right: 22px;
+  }
+  100%{
+    right: 22px;
+  }
+}
+.lower{
+  bottom: -22px;
+  left: 0;
+  background: #ffff00;
+  animation: lower 1s linear infinite;
+}
+@keyframes lower {
+  50%{
+    bottom: 22px;
+  }
+  100%{
+    bottom: 22px;
+  }
+}
+.left{
+  left: -22px;
+  top: 0;
+  background: #00ff00;
+  animation: left 1s linear infinite;
+}
+@keyframes left {
+  50%{
+    left: 22px;
+  }
+  100%{
+    left: 22px;
+  }
+}
