@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 45%;
+    height: 68%;
+    border-radius: 12px;
+    display:block;
+    box-shadow: 0px 20px 35px rgba(0,0,0,0.2);
+}
+.container .top{
+    background-color:white;
+    width:100%;
+    height:43%;
+    border-radius: 12px 12px 0px 0px;
+    text-align: left;
+    padding: 32px 32px;
+}
+.container .top h2{
+    color: hsl(179, 62%, 43%);
+    font-weight:700;
+}
+.container .top .sub-heading{
+    color:hsl(71, 70%, 47%);
+    font-weight:700;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+.container .top .details{
+    color:hsl(218, 22%, 67%);
+    font-weight:400;
+    padding-right: 50px;
+    line-height: 27px;
+}
+.container .bottom{
+    width:100%;
+    height:57%;
+    border-radius: 0px 0px 12px 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(179, 62%, 43%);
+}
+.container .bottom .left{
+    width:50%;
+    height:100%;
+    border-radius: 0px 0px 0px 12px;
+    padding: 40px 40px;
+    text-align:left;
+}
+.container .bottom .left h3{
+    color:white;
+    font-weight:520;
+}
+.container .bottom .left .price{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:10px;
+    display:flex;
+}
+.container .bottom .left .price .dollar{
+    float:left;
+    color:white;
+    font-weight:700px;
+    font-size: 32px;
+    padding-right: 7px;
+}
+.container .bottom .left .price .text{
+    float:left;
+    color:hsl(179, 62%, 70%);
+    transform: translate(10px,10px);
+}
+.container .bottom .left .subcription{
+    color:hsl(204, 43%, 93%);
+    padding-bottom:35px;
+}
+.container .bottom .left .button{
+    width:100%;
+    padding-right: 20px;
+}
+.container .bottom .left .button .sign-up{
+    width:100%;
+    height:45px;
+    background-color:hsl(71, 73%, 54%);
+    color:white;
+    font-weight:700;
+    letter-spacing: 1px;
+    border-radius:6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.15);
+    cursor:pointer;
+}
+.container .bottom .right{
+    width:50%;
+    height:100%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 0px 0px 12px 0px;
+    padding: 40px 40px;
+}
+.container .bottom .right h3{
+    color:white;
+    font-weight:520;
+}
+.container .bottom .right .list{
+    width:100%;
+    padding-top:20px;
+    line-height:22px;
+}
+.container .bottom .right .list .item{
+    list-style:none;
+    color:hsl(179, 62%, 85%);
+}
