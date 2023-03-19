@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;600&family=Mouse+Memoirs&family=PT+Sans:ital,wght@0,400;0,700;1,700&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #04293a; */
+  color: #fff;
+}
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+audio {
+  display: none;
+}
+.playlist {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.playlist h1{
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+}
