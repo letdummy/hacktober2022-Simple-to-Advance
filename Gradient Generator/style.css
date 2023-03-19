@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: rgba(0,0,0,.5);
+    font-family: 'Comfortaa', cursive; 
+    text-align: center;
+    background: radial-gradient(rgb(247, 203, 203), rgb(247, 247, 178), rgb(196, 248, 196), rgb(217, 217, 248), rgb(250, 134, 153));
+}
+
+h1{
+    font-family: 'Spartan', sans-serif;  
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: rgba(0,0,0,.5);
+    font-weight: 900;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(rgb(108, 59, 243),rgb(248, 129, 137));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#gradient{
+    height: 55vh;
+    width: 20vw;
+    background-color: black;
+    border-radius: 8%;
+    box-shadow: 6px 31px 68px 10px rgba(95, 94, 94, 0.6);
+    background: linear-gradient(45deg, #FFB319 , #F43B86);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    min-width: 220px;
+}
+
+input{
+    border: none;
+    border-radius: 0px;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    -webkit-appearance: none;
+    margin-left: 15px;
+}
+
+input::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+input::-webkit-color-swatch {
+    border: none;
+    border-radius: 20px;
+}
+
+#define{
+    margin:0rem 6rem;
+    width: 50%;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(29, 7, 95, 0.911);
+    text-align: center;
+    margin: 1.5rem auto;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h4{
+    font-family: monospace;
+    font-size: 1.4rem;
+    color: rgba(17, 3, 59, 0.911);
+}
+
+#type{
+    background-color: rgb(54, 72, 175);
+    color: whitesmoke;
+    padding: 6px;
+    outline: violet;
+    border: thistle;
+    font-size: 1rem;
+    box-shadow: 0px 0px 17px 0.1px rgb(101, 121, 233);
+}
+
+@media screen and (max-width: 850px){
+    h1{
+        font-size: 2.2rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+    }
+
+    #define{
+        margin-top: 50px;
+        width: 90vw;
+    }
+}

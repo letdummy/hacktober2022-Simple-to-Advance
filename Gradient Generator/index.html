@@ -1,0 +1,31 @@
+<!-- ctrl + shift + P for live server preview -->
+   <!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradient Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>CREATE YOUR OWN GRADIENT</h1>
+        <div class="container">
+            <div id="gradient"></div>
+            <div id="define">
+                <h3>Choose the type of Gradient</h3>
+                <select name="type" id="type">
+                    <option value="45deg">45 Deg</option>
+                    <option value="90deg">Left to Right</option>
+                    <option value="180deg">Top to Bottom</option>
+                    <option value="radial">Radial</option>
+                </select>
+                <h3>Pick the colors</h3>
+                <input type="color" class="color1" >
+                <input type="color" class="color2" >
+                <h3>Color Code of Generated Gradient:</h3>
+                <h4></h4>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
