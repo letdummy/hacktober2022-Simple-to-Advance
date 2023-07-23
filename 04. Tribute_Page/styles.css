@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300&display=swap');
 
 body {
-    font-family: poppins;
+    font-family: 'Times New Roman', Times, serif;
     font-size: small;
 }
 
 #main {
     background-color: rgb(243, 222, 222);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .header {
