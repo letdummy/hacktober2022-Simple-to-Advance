@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+font-family: 'Times New Roman', Times, serif;
 }
 body{
   margin: 0;
@@ -103,6 +103,7 @@ input[type="submit"]:hover{
   text-align: center;
   font-size: 16px;
   color: #666666;
+  padding: 0;
 }
 .signup_link a{
   color: #2691d9;
